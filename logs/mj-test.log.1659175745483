@@ -1,0 +1,60 @@
+INFO  12:08:54,102 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  12:08:54,116 - #2 program
+INFO  12:08:54,116 - #28 proba1
+INFO  12:08:54,116 - #28 int
+INFO  12:08:54,116 - #28 x
+INFO  12:08:54,116 - #6 ;
+INFO  12:08:54,117 - #3 {
+INFO  12:08:54,117 - #16 void
+INFO  12:08:54,117 - #28 main
+INFO  12:08:54,117 - #14 (
+INFO  12:08:54,118 - #15 )
+INFO  12:08:54,118 - #3 {
+INFO  12:08:54,118 - #28 x
+INFO  12:08:54,118 - #23 ++
+INFO  12:08:54,118 - #6 ;
+INFO  12:08:54,118 - #4 }
+INFO  12:08:54,118 - #4 }
+INFO  12:08:54,119 - Program(
+ proba1
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList_nijeGreska(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_nijeGreska(
+         x
+          VariableOpcioneZagrade_bezZagrada(
+          ) [VariableOpcioneZagrade_bezZagrada]
+        ) [VariableSingle_nijeGreska]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList_nijeGreska]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost_void(
+    ) [MethodPovratnaVrednost_void]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_plusPlus(
+            Designator_onlyIdent(
+             x
+            ) [Designator_onlyIdent]
+          ) [DesignatorStatement_plusPlus]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:08:54,120 - =====================================================================
+INFO  12:08:54,120 - Parsiranje uspesno zavrseno!

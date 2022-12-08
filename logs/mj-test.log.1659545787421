@@ -1,0 +1,130 @@
+INFO  18:54:19,043 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  18:54:19,057 - #2 program
+INFO  18:54:19,057 - #28 test1
+INFO  18:54:19,057 - #5 const
+INFO  18:54:19,058 - #28 int
+INFO  18:54:19,058 - #28 nula
+INFO  18:54:19,058 - #7 =
+INFO  18:54:19,058 - #29 0
+INFO  18:54:19,058 - #8 ,
+INFO  18:54:19,059 - #28 jedan
+INFO  18:54:19,059 - #7 =
+INFO  18:54:19,059 - #29 1
+INFO  18:54:19,059 - #6 ;
+INFO  18:54:19,059 - #5 const
+INFO  18:54:19,059 - #28 char
+INFO  18:54:19,059 - #28 a
+INFO  18:54:19,059 - #7 =
+INFO  18:54:19,059 - #31 a
+INFO  18:54:19,059 - #6 ;
+INFO  18:54:19,060 - #5 const
+INFO  18:54:19,060 - #28 bool
+INFO  18:54:19,060 - #28 tacno
+INFO  18:54:19,060 - #7 =
+INFO  18:54:19,060 - #30 1
+INFO  18:54:19,060 - #8 ,
+INFO  18:54:19,060 - #28 netacno
+INFO  18:54:19,060 - #7 =
+INFO  18:54:19,060 - #30 0
+INFO  18:54:19,060 - #6 ;
+INFO  18:54:19,060 - #3 {
+INFO  18:54:19,060 - #16 void
+INFO  18:54:19,060 - #28 main
+INFO  18:54:19,060 - #14 (
+INFO  18:54:19,061 - #15 )
+INFO  18:54:19,061 - #3 {
+INFO  18:54:19,061 - #4 }
+INFO  18:54:19,061 - #4 }
+INFO  18:54:19,062 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_const(
+      ProgDeclList_const(
+        ProgDeclList_empty(
+        ) [ProgDeclList_empty]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclOptions_multiple(
+            ConstComma_ok(
+              ConstantDecl(
+               nula
+                Konstanta_broj(
+                 0
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstComma_ok]
+            ConstDeclOptions_single(
+              ConstSingle_ok(
+                ConstantDecl(
+                 jedan
+                  Konstanta_broj(
+                   1
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstSingle_ok]
+            ) [ConstDeclOptions_single]
+          ) [ConstDeclOptions_multiple]
+        ) [ConstDeclList]
+      ) [ProgDeclList_const]
+      ConstDeclList(
+        Type(
+         char
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_char(
+               a
+              ) [Konstanta_char]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           tacno
+            Konstanta_boolean(
+             1
+            ) [Konstanta_boolean]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             netacno
+              Konstanta_boolean(
+               0
+              ) [Konstanta_boolean]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:54:19,062 - =====================================================================
+INFO  18:54:19,065 - ---------------------------------------------------------------------
+INFO  18:54:19,065 - =====================================================================
+INFO  18:54:19,065 - Parsiranje uspesno zavrseno!

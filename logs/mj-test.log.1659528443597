@@ -1,0 +1,72 @@
+INFO  14:07:10,390 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  14:07:10,408 - #2 program
+INFO  14:07:10,408 - #28 Vulic
+INFO  14:07:10,408 - #28 int
+INFO  14:07:10,408 - #28 prom1
+INFO  14:07:10,409 - #6 ;
+INFO  14:07:10,409 - #3 {
+INFO  14:07:10,410 - #16 void
+INFO  14:07:10,410 - #28 main
+INFO  14:07:10,410 - #14 (
+INFO  14:07:10,410 - #15 )
+INFO  14:07:10,410 - #3 {
+INFO  14:07:10,411 - #28 b
+INFO  14:07:10,411 - #7 =
+INFO  14:07:10,411 - #14 (
+INFO  14:07:10,412 - #28 a
+INFO  14:07:10,412 - #11 *
+INFO  14:07:10,412 - #29 4
+INFO  14:07:10,413 - #15 )
+INFO  14:07:10,413 - #12 /
+INFO  14:07:10,413 - #29 3
+INFO  14:07:10,413 - #24 -
+INFO  14:07:10,413 - #6 ;
+ERROR 14:07:10,413 - 
+Sintaksna greska na liniji 7
+INFO  14:07:10,413 - #4 }
+INFO  14:07:10,413 - #4 }
+ERROR 14:07:10,414 - Oporavak izvrsen do ; u liniji 7
+INFO  14:07:10,415 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         prom1
+          VariableOpcioneZagrade_bezZagrada(
+          ) [VariableOpcioneZagrade_bezZagrada]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_greska(
+          ) [DesignatorStatement_greska]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  14:07:10,415 - =====================================================================
+INFO  14:07:10,419 - ---------------------------------------------------------------------
+INFO  14:07:10,419 - =====================================================================
+ERROR 14:07:10,419 - Parsiranje NIJE uspesno zavrseno!

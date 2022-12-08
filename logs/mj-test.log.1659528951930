@@ -1,0 +1,65 @@
+INFO  14:14:27,879 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  14:14:27,892 - #2 program
+INFO  14:14:27,892 - #28 Vulic
+INFO  14:14:27,892 - #28 int
+INFO  14:14:27,893 - #28 prom1
+INFO  14:14:27,893 - #6 ;
+INFO  14:14:27,894 - #3 {
+INFO  14:14:27,894 - #16 void
+INFO  14:14:27,894 - #28 main
+INFO  14:14:27,894 - #14 (
+INFO  14:14:27,895 - #15 )
+INFO  14:14:27,895 - #3 {
+INFO  14:14:27,895 - #28 b
+INFO  14:14:27,895 - #23 ++
+INFO  14:14:27,895 - #6 ;
+INFO  14:14:27,895 - #4 }
+INFO  14:14:27,896 - #4 }
+INFO  14:14:27,896 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         prom1
+          VariableOpcioneZagrade_bezZagrada(
+          ) [VariableOpcioneZagrade_bezZagrada]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_plusPlus(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+          ) [DesignatorStatement_plusPlus]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  14:14:27,897 - =====================================================================
+INFO  14:14:27,900 - Ma ovo mi samo metoda da vidim kako sve funkcionise na liniji 1
+INFO  14:14:27,900 - ---------------------------------------------------------------------
+INFO  14:14:27,900 - =====================================================================
+INFO  14:14:27,900 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,101 @@
+INFO  22:03:11,518 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  22:03:11,532 - #2 program
+INFO  22:03:11,533 - #28 Vulic
+INFO  22:03:11,533 - #5 const
+INFO  22:03:11,534 - #28 int
+INFO  22:03:11,534 - #28 a
+INFO  22:03:11,534 - #7 =
+INFO  22:03:11,534 - #29 1
+INFO  22:03:11,534 - #6 ;
+INFO  22:03:11,535 - #28 char
+INFO  22:03:11,535 - #28 niz1
+INFO  22:03:11,535 - #9 [
+INFO  22:03:11,536 - #10 ]
+INFO  22:03:11,536 - #6 ;
+INFO  22:03:11,536 - #3 {
+INFO  22:03:11,537 - #16 void
+INFO  22:03:11,537 - #28 main
+INFO  22:03:11,538 - #14 (
+INFO  22:03:11,538 - #15 )
+INFO  22:03:11,538 - #3 {
+INFO  22:03:11,539 - #28 b
+INFO  22:03:11,539 - #7 =
+INFO  22:03:11,539 - #28 a
+INFO  22:03:11,540 - #6 ;
+INFO  22:03:11,541 - #4 }
+INFO  22:03:11,541 - #4 }
+INFO  22:03:11,542 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl_broj(
+             a
+             1
+            ) [ConstantDecl_broj]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         niz1
+          VariableOpcioneZagrade_uglasteZagrade(
+          ) [VariableOpcioneZagrade_uglasteZagrade]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_designator(
+                    Designator_onlyIdent(
+                     a
+                    ) [Designator_onlyIdent]
+                  ) [FactorZamena_designator]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  22:03:11,542 - =====================================================================
+INFO  22:03:11,542 - Parsiranje uspesno zavrseno!

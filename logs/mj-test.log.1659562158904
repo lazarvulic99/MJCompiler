@@ -1,0 +1,99 @@
+INFO  23:29:05,040 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  23:29:05,055 - #2 program
+INFO  23:29:05,055 - #28 test1
+INFO  23:29:05,055 - #5 const
+INFO  23:29:05,056 - #28 int
+INFO  23:29:05,056 - #28 nula
+INFO  23:29:05,056 - #7 =
+INFO  23:29:05,056 - #29 0
+INFO  23:29:05,056 - #8 ,
+INFO  23:29:05,056 - #28 jedan
+INFO  23:29:05,056 - #7 =
+INFO  23:29:05,057 - #29 1
+INFO  23:29:05,057 - #6 ;
+INFO  23:29:05,057 - #28 char
+INFO  23:29:05,057 - #28 m
+INFO  23:29:05,057 - #24 -
+ERROR 23:29:05,057 - 
+Sintaksna greska na liniji 5
+INFO  23:29:05,057 - #8 ,
+INFO  23:29:05,057 - #28 z
+INFO  23:29:05,057 - #6 ;
+INFO  23:29:05,058 - #3 {
+ERROR 23:29:05,058 - Oporavak izvrsen do , u liniji 5
+INFO  23:29:05,070 - #16 void
+INFO  23:29:05,070 - #28 main
+INFO  23:29:05,071 - #14 (
+INFO  23:29:05,071 - #15 )
+INFO  23:29:05,071 - #3 {
+INFO  23:29:05,072 - #4 }
+INFO  23:29:05,072 - #4 }
+INFO  23:29:05,073 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_multiple(
+          ConstComma_ok(
+            ConstantDecl(
+             nula
+              Konstanta_broj(
+               0
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstComma_ok]
+          ConstDeclOptions_single(
+            ConstSingle_ok(
+              ConstantDecl(
+               jedan
+                Konstanta_broj(
+                 1
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstSingle_ok]
+          ) [ConstDeclOptions_single]
+        ) [ConstDeclOptions_multiple]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_greska(
+        ) [VariableComma_greska]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             z
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  23:29:05,073 - =====================================================================
+INFO  23:29:05,076 - ---------------------------------------------------------------------
+INFO  23:29:05,076 - =====================================================================
+ERROR 23:29:05,076 - Parsiranje NIJE uspesno zavrseno!

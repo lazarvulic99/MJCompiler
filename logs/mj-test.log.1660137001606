@@ -1,0 +1,189 @@
+INFO  15:01:15,381 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  15:01:15,397 - #2 program
+INFO  15:01:15,397 - #28 Lazar
+INFO  15:01:15,397 - #5 const
+INFO  15:01:15,398 - #28 int
+INFO  15:01:15,398 - #28 a
+INFO  15:01:15,398 - #7 =
+INFO  15:01:15,398 - #29 1
+INFO  15:01:15,398 - #6 ;
+INFO  15:01:15,399 - #28 int
+INFO  15:01:15,399 - #28 x
+INFO  15:01:15,399 - #8 ,
+INFO  15:01:15,400 - #28 niz
+INFO  15:01:15,400 - #9 [
+INFO  15:01:15,400 - #10 ]
+INFO  15:01:15,400 - #6 ;
+INFO  15:01:15,401 - #3 {
+INFO  15:01:15,401 - #16 void
+INFO  15:01:15,401 - #28 main
+INFO  15:01:15,401 - #14 (
+INFO  15:01:15,402 - #15 )
+INFO  15:01:15,402 - #28 int
+INFO  15:01:15,402 - #28 b
+INFO  15:01:15,402 - #8 ,
+INFO  15:01:15,402 - #28 c
+INFO  15:01:15,402 - #8 ,
+INFO  15:01:15,402 - #28 d
+INFO  15:01:15,402 - #6 ;
+INFO  15:01:15,402 - #28 char
+INFO  15:01:15,402 - #28 niz1
+INFO  15:01:15,403 - #9 [
+INFO  15:01:15,403 - #10 ]
+INFO  15:01:15,403 - #6 ;
+INFO  15:01:15,403 - #3 {
+INFO  15:01:15,403 - #20 print
+INFO  15:01:15,403 - #14 (
+INFO  15:01:15,403 - #29 2
+INFO  15:01:15,403 - #25 +
+INFO  15:01:15,404 - #29 1
+INFO  15:01:15,404 - #15 )
+INFO  15:01:15,405 - #6 ;
+INFO  15:01:15,405 - #4 }
+INFO  15:01:15,405 - #4 }
+INFO  15:01:15,406 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_broj(
+               1
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           x
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_notEmpty(
+        VarDeclVectorForMethod_empty(
+        ) [VarDeclVectorForMethod_empty]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               b
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_multiple(
+              VariableComma_ok(
+                VariableDecl(
+                 c
+                  VariableOpcioneZagrade_bezZagrada(
+                  ) [VariableOpcioneZagrade_bezZagrada]
+                ) [VariableDecl]
+              ) [VariableComma_ok]
+              VariableDeclOptions_single(
+                VariableSingle_ok(
+                  VariableDecl(
+                   d
+                    VariableOpcioneZagrade_bezZagrada(
+                    ) [VariableOpcioneZagrade_bezZagrada]
+                  ) [VariableDecl]
+                ) [VariableSingle_ok]
+              ) [VariableDeclOptions_single]
+            ) [VariableDeclOptions_multiple]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [VarDeclVectorForMethod_notEmpty]
+      VariableDeclList(
+        Type(
+         char
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz1
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          Expr_ListOfTerms(
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_const(
+                    FactorConst_broj(
+                     2
+                    ) [FactorConst_broj]
+                  ) [FactorZamena_const]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+            AddOperator_plus(
+            ) [AddOperator_plus]
+            Term_SingleFactor(
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_const(
+                  FactorConst_broj(
+                   1
+                  ) [FactorConst_broj]
+                ) [FactorZamena_const]
+              ) [Factor]
+            ) [Term_SingleFactor]
+          ) [Expr_ListOfTerms]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:01:15,406 - =====================================================================
+INFO  15:01:15,411 - ---------------------------------------------------------------------
+INFO  15:01:15,411 - =====================================================================
+INFO  15:01:15,418 - Parsiranje i generisanje uspesno zavrseno!

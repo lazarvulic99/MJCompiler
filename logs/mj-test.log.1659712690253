@@ -1,0 +1,353 @@
+INFO  17:15:16,999 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  17:15:17,013 - #2 program
+INFO  17:15:17,013 - #28 test1
+INFO  17:15:17,013 - #5 const
+INFO  17:15:17,013 - #28 int
+INFO  17:15:17,014 - #28 nula
+INFO  17:15:17,014 - #7 =
+INFO  17:15:17,014 - #29 0
+INFO  17:15:17,014 - #8 ,
+INFO  17:15:17,014 - #28 jedan
+INFO  17:15:17,014 - #7 =
+INFO  17:15:17,014 - #29 1
+INFO  17:15:17,014 - #6 ;
+INFO  17:15:17,014 - #28 char
+INFO  17:15:17,015 - #28 m
+INFO  17:15:17,015 - #8 ,
+INFO  17:15:17,016 - #28 r
+INFO  17:15:17,016 - #9 [
+INFO  17:15:17,016 - #10 ]
+INFO  17:15:17,016 - #6 ;
+INFO  17:15:17,016 - #28 int
+INFO  17:15:17,017 - #28 prom
+INFO  17:15:17,017 - #8 ,
+INFO  17:15:17,028 - #28 nova
+INFO  17:15:17,028 - #6 ;
+INFO  17:15:17,028 - #5 const
+INFO  17:15:17,028 - #28 bool
+INFO  17:15:17,028 - #28 istina
+INFO  17:15:17,028 - #7 =
+INFO  17:15:17,028 - #30 1
+INFO  17:15:17,028 - #6 ;
+INFO  17:15:17,028 - #3 {
+INFO  17:15:17,028 - #16 void
+INFO  17:15:17,028 - #28 main
+INFO  17:15:17,029 - #14 (
+INFO  17:15:17,029 - #15 )
+INFO  17:15:17,029 - #28 int
+INFO  17:15:17,029 - #28 lazar
+INFO  17:15:17,029 - #8 ,
+INFO  17:15:17,029 - #28 proba
+INFO  17:15:17,029 - #9 [
+INFO  17:15:17,029 - #10 ]
+INFO  17:15:17,029 - #6 ;
+INFO  17:15:17,029 - #3 {
+INFO  17:15:17,030 - #20 print
+INFO  17:15:17,030 - #14 (
+INFO  17:15:17,030 - #29 1
+INFO  17:15:17,030 - #15 )
+INFO  17:15:17,031 - #6 ;
+INFO  17:15:17,031 - #20 print
+INFO  17:15:17,031 - #14 (
+INFO  17:15:17,031 - #28 lazar
+INFO  17:15:17,031 - #15 )
+INFO  17:15:17,032 - #6 ;
+INFO  17:15:17,032 - #20 print
+INFO  17:15:17,032 - #14 (
+INFO  17:15:17,032 - #30 1
+INFO  17:15:17,032 - #15 )
+INFO  17:15:17,032 - #6 ;
+INFO  17:15:17,032 - #20 print
+INFO  17:15:17,032 - #14 (
+INFO  17:15:17,032 - #28 istina
+INFO  17:15:17,032 - #15 )
+INFO  17:15:17,032 - #6 ;
+INFO  17:15:17,032 - #20 print
+INFO  17:15:17,032 - #14 (
+INFO  17:15:17,032 - #28 m
+INFO  17:15:17,032 - #15 )
+INFO  17:15:17,032 - #6 ;
+INFO  17:15:17,032 - #20 print
+INFO  17:15:17,032 - #14 (
+INFO  17:15:17,032 - #28 proba
+INFO  17:15:17,032 - #9 [
+INFO  17:15:17,033 - #29 2
+INFO  17:15:17,033 - #10 ]
+INFO  17:15:17,033 - #15 )
+INFO  17:15:17,033 - #6 ;
+INFO  17:15:17,033 - #4 }
+INFO  17:15:17,033 - #4 }
+INFO  17:15:17,035 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_variable(
+      ProgDeclList_variable(
+        ProgDeclList_const(
+          ProgDeclList_empty(
+          ) [ProgDeclList_empty]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclOptions_multiple(
+              ConstComma_ok(
+                ConstantDecl(
+                 nula
+                  Konstanta_broj(
+                   0
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstComma_ok]
+              ConstDeclOptions_single(
+                ConstSingle_ok(
+                  ConstantDecl(
+                   jedan
+                    Konstanta_broj(
+                     1
+                    ) [Konstanta_broj]
+                  ) [ConstantDecl]
+                ) [ConstSingle_ok]
+              ) [ConstDeclOptions_single]
+            ) [ConstDeclOptions_multiple]
+          ) [ConstDeclList]
+        ) [ProgDeclList_const]
+        VariableDeclList(
+          Type(
+           char
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               m
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_single(
+              VariableSingle_ok(
+                VariableDecl(
+                 r
+                  VariableOpcioneZagrade_uglasteZagrade(
+                  ) [VariableOpcioneZagrade_uglasteZagrade]
+                ) [VariableDecl]
+              ) [VariableSingle_ok]
+            ) [VariableDeclOptions_single]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [ProgDeclList_variable]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             prom
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               nova
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclOptions_single(
+        ConstSingle_ok(
+          ConstantDecl(
+           istina
+            Konstanta_boolean(
+             1
+            ) [Konstanta_boolean]
+          ) [ConstantDecl]
+        ) [ConstSingle_ok]
+      ) [ConstDeclOptions_single]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             lazar
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               proba
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_notEmpty(
+          StatementVector_notEmpty(
+            StatementVector_notEmpty(
+              StatementVector_notEmpty(
+                StatementVector_empty(
+                ) [StatementVector_empty]
+                Statement_singleNoLabel(
+                  SingleStatement_printStatementWithoutZarez(
+                    Expr_SingleTerm(
+                      Term_SingleFactor(
+                        Factor(
+                          FactorMoguciMinus_nijeMinus(
+                          ) [FactorMoguciMinus_nijeMinus]
+                          FactorZamena_const(
+                            FactorConst_broj(
+                             1
+                            ) [FactorConst_broj]
+                          ) [FactorZamena_const]
+                        ) [Factor]
+                      ) [Term_SingleFactor]
+                    ) [Expr_SingleTerm]
+                  ) [SingleStatement_printStatementWithoutZarez]
+                ) [Statement_singleNoLabel]
+              ) [StatementVector_notEmpty]
+              Statement_singleNoLabel(
+                SingleStatement_printStatementWithoutZarez(
+                  Expr_SingleTerm(
+                    Term_SingleFactor(
+                      Factor(
+                        FactorMoguciMinus_nijeMinus(
+                        ) [FactorMoguciMinus_nijeMinus]
+                        FactorZamena_designator(
+                          Designator_onlyIdent(
+                           lazar
+                          ) [Designator_onlyIdent]
+                        ) [FactorZamena_designator]
+                      ) [Factor]
+                    ) [Term_SingleFactor]
+                  ) [Expr_SingleTerm]
+                ) [SingleStatement_printStatementWithoutZarez]
+              ) [Statement_singleNoLabel]
+            ) [StatementVector_notEmpty]
+            Statement_singleNoLabel(
+              SingleStatement_printStatementWithoutZarez(
+                Expr_SingleTerm(
+                  Term_SingleFactor(
+                    Factor(
+                      FactorMoguciMinus_nijeMinus(
+                      ) [FactorMoguciMinus_nijeMinus]
+                      FactorZamena_const(
+                        FactorConst_boolean(
+                         1
+                        ) [FactorConst_boolean]
+                      ) [FactorZamena_const]
+                    ) [Factor]
+                  ) [Term_SingleFactor]
+                ) [Expr_SingleTerm]
+              ) [SingleStatement_printStatementWithoutZarez]
+            ) [Statement_singleNoLabel]
+          ) [StatementVector_notEmpty]
+          Statement_singleNoLabel(
+            SingleStatement_printStatementWithoutZarez(
+              Expr_SingleTerm(
+                Term_SingleFactor(
+                  Factor(
+                    FactorMoguciMinus_nijeMinus(
+                    ) [FactorMoguciMinus_nijeMinus]
+                    FactorZamena_designator(
+                      Designator_onlyIdent(
+                       istina
+                      ) [Designator_onlyIdent]
+                    ) [FactorZamena_designator]
+                  ) [Factor]
+                ) [Term_SingleFactor]
+              ) [Expr_SingleTerm]
+            ) [SingleStatement_printStatementWithoutZarez]
+          ) [Statement_singleNoLabel]
+        ) [StatementVector_notEmpty]
+        Statement_singleNoLabel(
+          SingleStatement_printStatementWithoutZarez(
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_designator(
+                    Designator_onlyIdent(
+                     m
+                    ) [Designator_onlyIdent]
+                  ) [FactorZamena_designator]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [SingleStatement_printStatementWithoutZarez]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          Expr_SingleTerm(
+            Term_SingleFactor(
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_designator(
+                  Designator_element(
+                    VariableNameZaNiz(
+                     proba
+                    ) [VariableNameZaNiz]
+                    Expr_SingleTerm(
+                      Term_SingleFactor(
+                        Factor(
+                          FactorMoguciMinus_nijeMinus(
+                          ) [FactorMoguciMinus_nijeMinus]
+                          FactorZamena_const(
+                            FactorConst_broj(
+                             2
+                            ) [FactorConst_broj]
+                          ) [FactorZamena_const]
+                        ) [Factor]
+                      ) [Term_SingleFactor]
+                    ) [Expr_SingleTerm]
+                  ) [Designator_element]
+                ) [FactorZamena_designator]
+              ) [Factor]
+            ) [Term_SingleFactor]
+          ) [Expr_SingleTerm]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:15:17,035 - =====================================================================
+INFO  17:15:17,039 - Pristupa se lokalnoj promenljivi: lazar [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 50
+INFO  17:15:17,040 - Pristupa se globalnoj promenljivi: istina [Kind: 0, adr: 1, level: 0, fpos: 0]  na liniji 52
+INFO  17:15:17,040 - Pristupa se globalnoj promenljivi: m [Kind: 1, adr: 0, level: 0, fpos: 0]  na liniji 53
+INFO  17:15:17,040 - Pristupilo se elementu niza: proba [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 55
+INFO  17:15:17,040 - ---------------------------------------------------------------------
+INFO  17:15:17,040 - =====================================================================
+INFO  17:15:17,040 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,291 @@
+INFO  14:55:59,979 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  14:55:59,993 - #2 program
+INFO  14:55:59,994 - #28 Lazar
+INFO  14:55:59,994 - #5 const
+INFO  14:55:59,994 - #28 int
+INFO  14:55:59,994 - #28 a
+INFO  14:55:59,994 - #7 =
+INFO  14:55:59,995 - #29 1
+INFO  14:55:59,995 - #6 ;
+INFO  14:55:59,995 - #28 int
+INFO  14:55:59,995 - #28 x
+INFO  14:55:59,995 - #8 ,
+INFO  14:55:59,996 - #28 niz
+INFO  14:55:59,996 - #9 [
+INFO  14:55:59,996 - #10 ]
+INFO  14:55:59,996 - #6 ;
+INFO  14:55:59,997 - #28 char
+INFO  14:55:59,997 - #28 slovce
+INFO  14:55:59,997 - #6 ;
+INFO  14:55:59,997 - #3 {
+INFO  14:55:59,997 - #16 void
+INFO  14:55:59,997 - #28 main
+INFO  14:55:59,997 - #14 (
+INFO  14:56:00,038 - #15 )
+INFO  14:56:00,038 - #28 int
+INFO  14:56:00,039 - #28 b
+INFO  14:56:00,039 - #8 ,
+INFO  14:56:00,039 - #28 c
+INFO  14:56:00,039 - #8 ,
+INFO  14:56:00,039 - #28 d
+INFO  14:56:00,039 - #9 [
+INFO  14:56:00,039 - #10 ]
+INFO  14:56:00,039 - #6 ;
+INFO  14:56:00,039 - #28 int
+INFO  14:56:00,039 - #28 niz1
+INFO  14:56:00,039 - #9 [
+INFO  14:56:00,039 - #10 ]
+INFO  14:56:00,039 - #8 ,
+INFO  14:56:00,039 - #28 promenljiva
+INFO  14:56:00,039 - #6 ;
+INFO  14:56:00,039 - #3 {
+INFO  14:56:00,039 - #28 l
+INFO  14:56:00,040 - #17 :
+INFO  14:56:00,040 - #20 print
+INFO  14:56:00,040 - #14 (
+INFO  14:56:00,040 - #29 1
+INFO  14:56:00,041 - #15 )
+INFO  14:56:00,041 - #6 ;
+INFO  14:56:00,041 - #21 goto
+INFO  14:56:00,041 - #28 l3
+INFO  14:56:00,041 - #6 ;
+INFO  14:56:00,042 - #21 goto
+INFO  14:56:00,042 - #28 l3
+INFO  14:56:00,042 - #6 ;
+INFO  14:56:00,042 - #20 print
+INFO  14:56:00,042 - #14 (
+INFO  14:56:00,042 - #29 2
+INFO  14:56:00,042 - #15 )
+INFO  14:56:00,042 - #6 ;
+INFO  14:56:00,042 - #28 l3
+INFO  14:56:00,042 - #17 :
+INFO  14:56:00,042 - #20 print
+INFO  14:56:00,042 - #14 (
+INFO  14:56:00,042 - #29 3
+INFO  14:56:00,042 - #15 )
+INFO  14:56:00,042 - #6 ;
+INFO  14:56:00,042 - #4 }
+INFO  14:56:00,042 - #4 }
+INFO  14:56:00,046 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_variable(
+      ProgDeclList_const(
+        ProgDeclList_empty(
+        ) [ProgDeclList_empty]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclOptions_single(
+            ConstSingle_ok(
+              ConstantDecl(
+               a
+                Konstanta_broj(
+                 1
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstSingle_ok]
+          ) [ConstDeclOptions_single]
+        ) [ConstDeclList]
+      ) [ProgDeclList_const]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             x
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               niz
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           slovce
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_notEmpty(
+        VarDeclVectorForMethod_empty(
+        ) [VarDeclVectorForMethod_empty]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               b
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_multiple(
+              VariableComma_ok(
+                VariableDecl(
+                 c
+                  VariableOpcioneZagrade_bezZagrada(
+                  ) [VariableOpcioneZagrade_bezZagrada]
+                ) [VariableDecl]
+              ) [VariableComma_ok]
+              VariableDeclOptions_single(
+                VariableSingle_ok(
+                  VariableDecl(
+                   d
+                    VariableOpcioneZagrade_uglasteZagrade(
+                    ) [VariableOpcioneZagrade_uglasteZagrade]
+                  ) [VariableDecl]
+                ) [VariableSingle_ok]
+              ) [VariableDeclOptions_single]
+            ) [VariableDeclOptions_multiple]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [VarDeclVectorForMethod_notEmpty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             niz1
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               promenljiva
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_notEmpty(
+          StatementVector_notEmpty(
+            StatementVector_notEmpty(
+              StatementVector_empty(
+              ) [StatementVector_empty]
+              Statement_singleWithLabel(
+                SingleStatementLabel(
+                  Label(
+                   l
+                  ) [Label]
+                ) [SingleStatementLabel]
+                SingleStatement_printStatementWithoutZarez(
+                  Expr_SingleTerm(
+                    Term_SingleFactor(
+                      Factor(
+                        FactorMoguciMinus_nijeMinus(
+                        ) [FactorMoguciMinus_nijeMinus]
+                        FactorZamena_const(
+                          FactorConst_broj(
+                           1
+                          ) [FactorConst_broj]
+                        ) [FactorZamena_const]
+                      ) [Factor]
+                    ) [Term_SingleFactor]
+                  ) [Expr_SingleTerm]
+                ) [SingleStatement_printStatementWithoutZarez]
+              ) [Statement_singleWithLabel]
+            ) [StatementVector_notEmpty]
+            Statement_singleNoLabel(
+              SingleStatement_gotoStatement(
+                LabelIzaGoTo(
+                 l3
+                ) [LabelIzaGoTo]
+              ) [SingleStatement_gotoStatement]
+            ) [Statement_singleNoLabel]
+          ) [StatementVector_notEmpty]
+          Statement_singleNoLabel(
+            SingleStatement_gotoStatement(
+              LabelIzaGoTo(
+               l3
+              ) [LabelIzaGoTo]
+            ) [SingleStatement_gotoStatement]
+          ) [Statement_singleNoLabel]
+        ) [StatementVector_notEmpty]
+        Statement_singleNoLabel(
+          SingleStatement_printStatementWithoutZarez(
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_const(
+                    FactorConst_broj(
+                     2
+                    ) [FactorConst_broj]
+                  ) [FactorZamena_const]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [SingleStatement_printStatementWithoutZarez]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleWithLabel(
+        SingleStatementLabel(
+          Label(
+           l3
+          ) [Label]
+        ) [SingleStatementLabel]
+        SingleStatement_printStatementWithoutZarez(
+          Expr_SingleTerm(
+            Term_SingleFactor(
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_const(
+                  FactorConst_broj(
+                   3
+                  ) [FactorConst_broj]
+                ) [FactorZamena_const]
+              ) [Factor]
+            ) [Term_SingleFactor]
+          ) [Expr_SingleTerm]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleWithLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  14:56:00,046 - =====================================================================
+INFO  14:56:00,049 - Lokalnih promenljivih: 5
+INFO  14:56:00,049 - ---------------------------------------------------------------------
+INFO  14:56:00,050 - =====================================================================
+INFO  14:56:00,056 - Parsiranje i generisanje uspesno zavrseno!

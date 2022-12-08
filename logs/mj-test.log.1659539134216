@@ -1,0 +1,65 @@
+INFO  14:15:51,932 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  14:15:51,946 - #2 program
+INFO  14:15:51,946 - #28 Vulic
+INFO  14:15:51,946 - #28 int
+INFO  14:15:51,947 - #28 prom1
+INFO  14:15:51,947 - #6 ;
+INFO  14:15:51,947 - #3 {
+INFO  14:15:51,948 - #16 void
+INFO  14:15:51,948 - #28 main
+INFO  14:15:51,948 - #14 (
+INFO  14:15:51,948 - #15 )
+INFO  14:15:51,948 - #3 {
+INFO  14:15:51,949 - #28 b
+INFO  14:15:51,949 - #23 ++
+INFO  14:15:51,949 - #6 ;
+INFO  14:15:51,949 - #4 }
+INFO  14:15:51,949 - #4 }
+INFO  14:15:51,950 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         prom1
+          VariableOpcioneZagrade_bezZagrada(
+          ) [VariableOpcioneZagrade_bezZagrada]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_plusPlus(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+          ) [DesignatorStatement_plusPlus]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  14:15:51,950 - =====================================================================
+ERROR 14:15:51,954 - Ma ovo mi samo metoda da vidim kako sve funkcionise na liniji 1
+INFO  14:15:51,954 - ---------------------------------------------------------------------
+INFO  14:15:51,954 - =====================================================================
+ERROR 14:15:51,954 - Parsiranje NIJE uspesno zavrseno!

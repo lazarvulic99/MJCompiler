@@ -1,0 +1,71 @@
+INFO  18:23:52,554 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  18:23:52,568 - #2 program
+INFO  18:23:52,568 - #28 test1
+INFO  18:23:52,568 - #5 const
+INFO  18:23:52,568 - #28 short
+INFO  18:23:52,568 - #28 nula
+INFO  18:23:52,569 - #7 =
+INFO  18:23:52,569 - #29 0
+INFO  18:23:52,569 - #8 ,
+INFO  18:23:52,569 - #28 jedan
+INFO  18:23:52,569 - #7 =
+INFO  18:23:52,569 - #29 1
+INFO  18:23:52,569 - #6 ;
+INFO  18:23:52,569 - #3 {
+INFO  18:23:52,570 - #16 void
+INFO  18:23:52,570 - #28 main
+INFO  18:23:52,570 - #14 (
+INFO  18:23:52,570 - #15 )
+INFO  18:23:52,570 - #3 {
+INFO  18:23:52,571 - #4 }
+INFO  18:23:52,571 - #4 }
+INFO  18:23:52,572 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       short
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           nula
+            FactorConst_broj(
+             0
+            ) [FactorConst_broj]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             jedan
+              FactorConst_broj(
+               1
+              ) [FactorConst_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:23:52,572 - =====================================================================
+ERROR 18:23:52,575 - Greska! Tip: short nije iz skupa ugradjenih tipova: int, char, bool! na liniji 4
+INFO  18:23:52,576 - ---------------------------------------------------------------------
+INFO  18:23:52,576 - =====================================================================
+ERROR 18:23:52,576 - Parsiranje NIJE uspesno zavrseno!

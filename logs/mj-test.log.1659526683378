@@ -1,0 +1,84 @@
+INFO  13:36:07,603 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  13:36:07,617 - #2 program
+INFO  13:36:07,617 - #28 Vulic
+INFO  13:36:07,617 - #5 const
+INFO  13:36:07,618 - #28 int
+INFO  13:36:07,618 - #28 a
+INFO  13:36:07,618 - #7 =
+INFO  13:36:07,618 - #29 1
+INFO  13:36:07,618 - #6 ;
+INFO  13:36:07,618 - #3 {
+INFO  13:36:07,619 - #16 void
+INFO  13:36:07,619 - #28 main
+INFO  13:36:07,619 - #14 (
+INFO  13:36:07,619 - #15 )
+INFO  13:36:07,619 - #3 {
+INFO  13:36:07,620 - #28 b
+INFO  13:36:07,620 - #7 =
+INFO  13:36:07,620 - #28 a
+INFO  13:36:07,621 - #6 ;
+INFO  13:36:07,621 - #4 }
+INFO  13:36:07,621 - #4 }
+INFO  13:36:07,622 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_single(
+        ConstSingle_ok(
+          ConstantDecl_broj(
+           a
+           1
+          ) [ConstantDecl_broj]
+        ) [ConstSingle_ok]
+      ) [ConstDeclOptions_single]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_designator(
+                    Designator_onlyIdent(
+                     a
+                    ) [Designator_onlyIdent]
+                  ) [FactorZamena_designator]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  13:36:07,623 - =====================================================================
+INFO  13:36:07,625 - ---------------------------------------------------------------------
+INFO  13:36:07,626 - =====================================================================
+INFO  13:36:07,626 - Parsiranje uspesno zavrseno!

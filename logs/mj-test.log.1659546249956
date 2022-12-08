@@ -1,0 +1,145 @@
+INFO  19:03:52,657 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  19:03:52,672 - #2 program
+INFO  19:03:52,672 - #28 test1
+INFO  19:03:52,672 - #5 const
+INFO  19:03:52,672 - #28 int
+INFO  19:03:52,673 - #28 nula
+INFO  19:03:52,673 - #7 =
+INFO  19:03:52,673 - #29 0
+INFO  19:03:52,673 - #8 ,
+INFO  19:03:52,673 - #28 jedan
+INFO  19:03:52,673 - #7 =
+INFO  19:03:52,673 - #29 1
+INFO  19:03:52,673 - #8 ,
+INFO  19:03:52,673 - #28 jedan
+INFO  19:03:52,674 - #7 =
+INFO  19:03:52,674 - #29 11
+INFO  19:03:52,674 - #6 ;
+INFO  19:03:52,674 - #5 const
+INFO  19:03:52,674 - #28 char
+INFO  19:03:52,674 - #28 a
+INFO  19:03:52,674 - #7 =
+INFO  19:03:52,674 - #31 a
+INFO  19:03:52,674 - #6 ;
+INFO  19:03:52,675 - #5 const
+INFO  19:03:52,675 - #28 bool
+INFO  19:03:52,675 - #28 tacno
+INFO  19:03:52,675 - #7 =
+INFO  19:03:52,675 - #30 1
+INFO  19:03:52,675 - #8 ,
+INFO  19:03:52,675 - #28 netacno
+INFO  19:03:52,675 - #7 =
+INFO  19:03:52,675 - #30 0
+INFO  19:03:52,675 - #6 ;
+INFO  19:03:52,675 - #3 {
+INFO  19:03:52,675 - #16 void
+INFO  19:03:52,675 - #28 main
+INFO  19:03:52,675 - #14 (
+INFO  19:03:52,676 - #15 )
+INFO  19:03:52,676 - #3 {
+INFO  19:03:52,676 - #4 }
+INFO  19:03:52,676 - #4 }
+INFO  19:03:52,677 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_const(
+      ProgDeclList_const(
+        ProgDeclList_empty(
+        ) [ProgDeclList_empty]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclOptions_multiple(
+            ConstComma_ok(
+              ConstantDecl(
+               nula
+                Konstanta_broj(
+                 0
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstComma_ok]
+            ConstDeclOptions_multiple(
+              ConstComma_ok(
+                ConstantDecl(
+                 jedan
+                  Konstanta_broj(
+                   1
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstComma_ok]
+              ConstDeclOptions_single(
+                ConstSingle_ok(
+                  ConstantDecl(
+                   jedan
+                    Konstanta_broj(
+                     11
+                    ) [Konstanta_broj]
+                  ) [ConstantDecl]
+                ) [ConstSingle_ok]
+              ) [ConstDeclOptions_single]
+            ) [ConstDeclOptions_multiple]
+          ) [ConstDeclOptions_multiple]
+        ) [ConstDeclList]
+      ) [ProgDeclList_const]
+      ConstDeclList(
+        Type(
+         char
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_char(
+               a
+              ) [Konstanta_char]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           tacno
+            Konstanta_boolean(
+             1
+            ) [Konstanta_boolean]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             netacno
+              Konstanta_boolean(
+               0
+              ) [Konstanta_boolean]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:03:52,677 - =====================================================================
+ERROR 19:03:52,680 - Greska! Dupla definicija simbola: jedan ! na liniji 4
+INFO  19:03:52,680 - ---------------------------------------------------------------------
+INFO  19:03:52,681 - =====================================================================
+ERROR 19:03:52,681 - Parsiranje NIJE uspesno zavrseno!

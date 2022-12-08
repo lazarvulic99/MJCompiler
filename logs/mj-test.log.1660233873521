@@ -1,0 +1,106 @@
+INFO  18:04:09,203 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  18:04:09,225 - #2 program
+INFO  18:04:09,225 - #28 Lazar
+INFO  18:04:09,225 - #5 const
+INFO  18:04:09,226 - #28 int
+INFO  18:04:09,226 - #28 a
+INFO  18:04:09,226 - #7 =
+INFO  18:04:09,227 - #29 1
+INFO  18:04:09,227 - #6 ;
+INFO  18:04:09,227 - #3 {
+INFO  18:04:09,228 - #16 void
+INFO  18:04:09,228 - #28 main
+INFO  18:04:09,228 - #14 (
+INFO  18:04:09,228 - #15 )
+INFO  18:04:09,228 - #28 int
+INFO  18:04:09,229 - #28 b
+INFO  18:04:09,229 - #6 ;
+INFO  18:04:09,230 - #3 {
+INFO  18:04:09,230 - #28 b
+INFO  18:04:09,231 - #7 =
+INFO  18:04:09,231 - #28 a
+INFO  18:04:09,231 - #6 ;
+INFO  18:04:09,232 - #4 }
+INFO  18:04:09,246 - #4 }
+INFO  18:04:09,250 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_single(
+        ConstSingle_ok(
+          ConstantDecl(
+           a
+            Konstanta_broj(
+             1
+            ) [Konstanta_broj]
+          ) [ConstantDecl]
+        ) [ConstSingle_ok]
+      ) [ConstDeclOptions_single]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             b
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_designator(
+                    Designator_onlyIdent(
+                     a
+                    ) [Designator_onlyIdent]
+                  ) [FactorZamena_designator]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:04:09,250 - =====================================================================
+INFO  18:04:09,256 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 10
+INFO  18:04:09,256 - Pristupa se globalnoj promenljivi: a [Kind: 0, adr: 1, level: 0, fpos: 0]  na liniji 10
+INFO  18:04:09,257 - Lokalnih promenljivih: 1
+INFO  18:04:09,257 - ---------------------------------------------------------------------
+INFO  18:04:09,258 - =====================================================================
+INFO  18:04:09,263 - Parsiranje i generisanje uspesno zavrseno!

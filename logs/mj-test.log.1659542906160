@@ -1,0 +1,70 @@
+INFO  17:39:06,421 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  17:39:06,434 - #2 program
+INFO  17:39:06,434 - #28 test1
+INFO  17:39:06,434 - #5 const
+INFO  17:39:06,435 - #28 int
+INFO  17:39:06,435 - #28 nula
+INFO  17:39:06,435 - #7 =
+INFO  17:39:06,435 - #29 0
+INFO  17:39:06,435 - #8 ,
+INFO  17:39:06,436 - #28 jedan
+INFO  17:39:06,436 - #7 =
+INFO  17:39:06,436 - #29 1
+INFO  17:39:06,436 - #6 ;
+INFO  17:39:06,436 - #3 {
+INFO  17:39:06,437 - #16 void
+INFO  17:39:06,437 - #28 main
+INFO  17:39:06,437 - #14 (
+INFO  17:39:06,437 - #15 )
+INFO  17:39:06,437 - #3 {
+INFO  17:39:06,438 - #4 }
+INFO  17:39:06,438 - #4 }
+INFO  17:39:06,439 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           nula
+            FactorConst_broj(
+             0
+            ) [FactorConst_broj]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             jedan
+              FactorConst_broj(
+               1
+              ) [FactorConst_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:39:06,439 - =====================================================================
+INFO  17:39:06,442 - ---------------------------------------------------------------------
+INFO  17:39:06,443 - =====================================================================
+INFO  17:39:06,443 - Parsiranje uspesno zavrseno!

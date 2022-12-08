@@ -1,0 +1,236 @@
+INFO  17:22:22,628 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  17:22:22,642 - #2 program
+INFO  17:22:22,642 - #28 Lazar
+INFO  17:22:22,642 - #5 const
+INFO  17:22:22,642 - #28 int
+INFO  17:22:22,642 - #28 a
+INFO  17:22:22,643 - #7 =
+INFO  17:22:22,643 - #29 1
+INFO  17:22:22,643 - #6 ;
+INFO  17:22:22,643 - #28 int
+INFO  17:22:22,644 - #28 x
+INFO  17:22:22,644 - #8 ,
+INFO  17:22:22,644 - #28 niz
+INFO  17:22:22,645 - #9 [
+INFO  17:22:22,645 - #10 ]
+INFO  17:22:22,645 - #6 ;
+INFO  17:22:22,645 - #3 {
+INFO  17:22:22,645 - #16 void
+INFO  17:22:22,646 - #28 main
+INFO  17:22:22,646 - #14 (
+INFO  17:22:22,646 - #15 )
+INFO  17:22:22,646 - #28 int
+INFO  17:22:22,646 - #28 b
+INFO  17:22:22,686 - #8 ,
+INFO  17:22:22,686 - #28 c
+INFO  17:22:22,686 - #6 ;
+INFO  17:22:22,686 - #28 int
+INFO  17:22:22,686 - #28 niz1
+INFO  17:22:22,686 - #9 [
+INFO  17:22:22,686 - #10 ]
+INFO  17:22:22,686 - #6 ;
+INFO  17:22:22,686 - #3 {
+INFO  17:22:22,686 - #28 niz1
+INFO  17:22:22,687 - #7 =
+INFO  17:22:22,687 - #26 new
+INFO  17:22:22,687 - #28 int
+INFO  17:22:22,687 - #9 [
+INFO  17:22:22,687 - #29 5
+INFO  17:22:22,687 - #10 ]
+INFO  17:22:22,688 - #6 ;
+INFO  17:22:22,688 - #28 niz1
+INFO  17:22:22,689 - #9 [
+INFO  17:22:22,689 - #29 1
+INFO  17:22:22,689 - #10 ]
+INFO  17:22:22,689 - #7 =
+INFO  17:22:22,689 - #29 3
+INFO  17:22:22,689 - #6 ;
+INFO  17:22:22,689 - #4 }
+INFO  17:22:22,689 - #4 }
+INFO  17:22:22,690 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_broj(
+               1
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           x
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_notEmpty(
+        VarDeclVectorForMethod_empty(
+        ) [VarDeclVectorForMethod_empty]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               b
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_single(
+              VariableSingle_ok(
+                VariableDecl(
+                 c
+                  VariableOpcioneZagrade_bezZagrada(
+                  ) [VariableOpcioneZagrade_bezZagrada]
+                ) [VariableDecl]
+              ) [VariableSingle_ok]
+            ) [VariableDeclOptions_single]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [VarDeclVectorForMethod_notEmpty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz1
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_empty(
+        ) [StatementVector_empty]
+        Statement_singleNoLabel(
+          SingleStatement_designatorStatement(
+            DesignatorStatement_dodela(
+              Designator_onlyIdent(
+               niz1
+              ) [Designator_onlyIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              Expr_SingleTerm(
+                Term_SingleFactor(
+                  Factor(
+                    FactorMoguciMinus_nijeMinus(
+                    ) [FactorMoguciMinus_nijeMinus]
+                    FactorZamena_new(
+                      ArrayDecl(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_SingleTerm(
+                          Term_SingleFactor(
+                            Factor(
+                              FactorMoguciMinus_nijeMinus(
+                              ) [FactorMoguciMinus_nijeMinus]
+                              FactorZamena_const(
+                                FactorConst_broj(
+                                 5
+                                ) [FactorConst_broj]
+                              ) [FactorZamena_const]
+                            ) [Factor]
+                          ) [Term_SingleFactor]
+                        ) [Expr_SingleTerm]
+                      ) [ArrayDecl]
+                    ) [FactorZamena_new]
+                  ) [Factor]
+                ) [Term_SingleFactor]
+              ) [Expr_SingleTerm]
+            ) [DesignatorStatement_dodela]
+          ) [SingleStatement_designatorStatement]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_element(
+              VariableNameZaNiz(
+               niz1
+              ) [VariableNameZaNiz]
+              Expr_SingleTerm(
+                Term_SingleFactor(
+                  Factor(
+                    FactorMoguciMinus_nijeMinus(
+                    ) [FactorMoguciMinus_nijeMinus]
+                    FactorZamena_const(
+                      FactorConst_broj(
+                       1
+                      ) [FactorConst_broj]
+                    ) [FactorZamena_const]
+                  ) [Factor]
+                ) [Term_SingleFactor]
+              ) [Expr_SingleTerm]
+            ) [Designator_element]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_const(
+                    FactorConst_broj(
+                     3
+                    ) [FactorConst_broj]
+                  ) [FactorZamena_const]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:22:22,691 - =====================================================================
+INFO  17:22:22,694 - Pristupa se lokalnoj promenljivi: niz1 [Kind: 1, adr: 2, level: 1, fpos: 0]  na liniji 9
+INFO  17:22:22,695 - Pristupilo se elementu niza: niz1 [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 10
+INFO  17:22:22,695 - ---------------------------------------------------------------------
+INFO  17:22:22,695 - =====================================================================
+INFO  17:22:22,701 - Parsiranje i generisanje uspesno zavrseno!

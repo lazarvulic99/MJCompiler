@@ -1,0 +1,61 @@
+INFO  12:08:42,549 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  12:08:42,563 - #2 program
+INFO  12:08:42,563 - #28 proba1
+INFO  12:08:42,563 - #28 int
+INFO  12:08:42,563 - #28 x
+INFO  12:08:42,564 - #6 ;
+INFO  12:08:42,564 - #3 {
+INFO  12:08:42,564 - #16 void
+INFO  12:08:42,564 - #28 main
+INFO  12:08:42,565 - #14 (
+INFO  12:08:42,565 - #15 )
+INFO  12:08:42,565 - #3 {
+INFO  12:08:42,565 - #28 x
+INFO  12:08:42,566 - #25 +
+ERROR 12:08:42,566 - 
+Sintaksna greska na liniji 6
+INFO  12:08:42,566 - #25 +
+INFO  12:08:42,566 - #6 ;
+INFO  12:08:42,566 - #4 }
+INFO  12:08:42,566 - #4 }
+ERROR 12:08:42,566 - Oporavak izvrsen do ; u liniji 6
+INFO  12:08:42,568 - Program(
+ proba1
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList_nijeGreska(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_nijeGreska(
+         x
+          VariableOpcioneZagrade_bezZagrada(
+          ) [VariableOpcioneZagrade_bezZagrada]
+        ) [VariableSingle_nijeGreska]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList_nijeGreska]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost_void(
+    ) [MethodPovratnaVrednost_void]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_greska(
+          ) [DesignatorStatement_greska]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:08:42,569 - =====================================================================
+ERROR 12:08:42,569 - Parsiranje NIJE uspesno zavrseno!

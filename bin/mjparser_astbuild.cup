@@ -1,0 +1,327 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+	
+	public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+    
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG;
+terminal LEVAVITICASTA;
+terminal DESNAVITICASTA;
+terminal LEVAZAGRADA;
+terminal DESNAZAGRADA;
+terminal LEVAUGLASTA;
+terminal DESNAUGLASTA;
+terminal CONST;
+terminal ZAREZ;
+terminal TACKAZAREZ;
+terminal DVETACKE;
+terminal JEDNAKO;
+terminal PUTA;
+terminal PODELJENO;
+terminal PROCENAT;
+terminal VOID;
+terminal RETURN;
+terminal READ;
+terminal PRINT;
+terminal NEW;
+terminal GOTO;
+terminal MINUSMINUS;
+terminal PLUSPLUS;
+terminal MINUS;
+terminal PLUS;
+terminal TACKA;
+terminal TERNARNI;
+terminal String IDENTIFIKATOR;
+terminal Integer BROJ;
+terminal Integer BOOLEAN;
+terminal Character CHAR;
+
+nonterminal Program Program;
+nonterminal ProgDeclList ProgDeclList;
+nonterminal VarDeclVectorForMethod VarDeclVectorForMethod;
+nonterminal StatementVector StatementVector;
+nonterminal MethodDeclList MethodDeclList;
+nonterminal ConstDeclList ConstDeclList;
+nonterminal SingleStatement SingleStatement;
+nonterminal Statements Statements;
+nonterminal VariableOpcioneZagrade VariableOpcioneZagrade;
+nonterminal Label Label;
+nonterminal Statement Statement;
+nonterminal SingleStatementLabel SingleStatementLabel;
+nonterminal ConstantDecl ConstantDecl;
+nonterminal DesignatorStatement DesignatorStatement;
+nonterminal VariableDecl VariableDecl;
+nonterminal VariableSingle VariableSingle;
+nonterminal LabelIzaGoTo LabelIzaGoTo;
+nonterminal VariableDeclList VariableDeclList;
+nonterminal AddOperator AddOperator;
+nonterminal MulOperator MulOperator;
+nonterminal AssignOperator AssignOperator;
+nonterminal ConstSingle ConstSingle;
+nonterminal ConstComma ConstComma;
+nonterminal VariableDeclOptions VariableDeclOptions;
+nonterminal VariableComma VariableComma;
+nonterminal ConstDeclOptions ConstDeclOptions;
+nonterminal ProgramIdent ProgramIdent;
+nonterminal TernaryOp TernaryOp;
+nonterminal FactorMoguciMinus FactorMoguciMinus;
+nonterminal Konstanta Konstanta;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ArrayDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct FactorZamena;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct FactorConst;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct TermList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ExprList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ExprBasic;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj VariableNameZaNiz;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodName;
+
+Program ::= (Program) PROG ProgramIdent:P1 ProgDeclList:P2 LEVAVITICASTA MethodDeclList:M3 DESNAVITICASTA {: RESULT=new Program(P1, P2, M3); RESULT.setLine(P1left); :};
+
+ProgramIdent ::= (ProgramIdent) IDENTIFIKATOR:progName {: RESULT=new ProgramIdent(progName); RESULT.setLine(progNameleft); :};
+
+ProgDeclList ::= (ProgDeclList_const) ProgDeclList:P1 ConstDeclList:C2 {: RESULT=new ProgDeclList_const(P1, C2); RESULT.setLine(P1left); :}
+				|
+				(ProgDeclList_variable) ProgDeclList:P1 VariableDeclList:V2 {: RESULT=new ProgDeclList_variable(P1, V2); RESULT.setLine(P1left); :}
+				|
+				(ProgDeclList_empty) {: RESULT=new ProgDeclList_empty(); :} /* epsilon */
+				;
+				
+ConstDeclList ::= (ConstDeclList) CONST Type:T1 ConstDeclOptions:C2 {: RESULT=new ConstDeclList(T1, C2); RESULT.setLine(T1left); :};
+
+/* Koristio sam desnu rekurziju, da bih kasnije mogao da radim oporavak na , */
+ConstDeclOptions ::= (ConstDeclOptions_multiple) ConstComma:C1 ConstDeclOptions:C2 {: RESULT=new ConstDeclOptions_multiple(C1, C2); RESULT.setLine(C1left); :}
+					|
+					(ConstDeclOptions_single) ConstSingle:C1 {: RESULT=new ConstDeclOptions_single(C1); RESULT.setLine(C1left); :}
+					;
+
+/* Oporavak od greske radjen na , */					
+ConstComma ::= (ConstComma_ok) ConstantDecl:C1 ZAREZ {: RESULT=new ConstComma_ok(C1); RESULT.setLine(C1left); :}
+			|
+			(ConstComma_greska) error ZAREZ:l
+			{: parser.report_error("Oporavak izvrsen do , u liniji " + lleft, null);  :} {: RESULT=new ConstComma_greska(); :}
+			;
+
+/* Oporavak od greske radjen na ; */					
+ConstSingle ::= (ConstSingle_ok) ConstantDecl:C1 TACKAZAREZ {: RESULT=new ConstSingle_ok(C1); RESULT.setLine(C1left); :}
+			|
+			(ConstSingle_greska) error TACKAZAREZ:l
+			{: parser.report_error("Oporavak izvrsen do ; u liniji " + lleft, null);  :} {: RESULT=new ConstSingle_greska(); :}
+			;
+
+Type ::= (Type) IDENTIFIKATOR:tip {: RESULT=new Type(tip); RESULT.setLine(tipleft); :};
+
+/* Bitno je da ne razdvojim ime konstante i vrednost konstante, da ostane u jednoj smeni */
+ConstantDecl ::= (ConstantDecl) IDENTIFIKATOR:I1 JEDNAKO Konstanta:K2 {: RESULT=new ConstantDecl(I1, K2); RESULT.setLine(I1left); :};
+
+Konstanta ::= (Konstanta_broj) BROJ:B1 {: RESULT=new Konstanta_broj(B1); RESULT.setLine(B1left); :}
+			|
+			(Konstanta_boolean) BOOLEAN:B1 {: RESULT=new Konstanta_boolean(B1); RESULT.setLine(B1left); :}
+			|
+			(Konstanta_char) CHAR:C1 {: RESULT=new Konstanta_char(C1); RESULT.setLine(C1left); :}
+			;
+			
+VariableDeclList ::= (VariableDeclList) Type:T1 VariableDeclOptions:V2 {: RESULT=new VariableDeclList(T1, V2); RESULT.setLine(T1left); :};
+
+VariableOpcioneZagrade ::= (VariableOpcioneZagrade_uglasteZagrade) LEVAUGLASTA DESNAUGLASTA {: RESULT=new VariableOpcioneZagrade_uglasteZagrade(); :}
+		|
+		(VariableOpcioneZagrade_bezZagrada) {: RESULT=new VariableOpcioneZagrade_bezZagrada(); :} /* epsilon */
+		;
+
+/* Koristio sam desnu rekurziju, da bih kasnije mogao da radim oporavak na , */		
+VariableDeclOptions ::= (VariableDeclOptions_single) VariableSingle:V1 {: RESULT=new VariableDeclOptions_single(V1); RESULT.setLine(V1left); :}
+					|
+					(VariableDeclOptions_multiple) VariableComma:V1 VariableDeclOptions:V2 {: RESULT=new VariableDeclOptions_multiple(V1, V2); RESULT.setLine(V1left); :}
+					;
+/* Oporavak je radjen na ; */					
+VariableSingle ::= (VariableSingle_ok) VariableDecl:V1 TACKAZAREZ {: RESULT=new VariableSingle_ok(V1); RESULT.setLine(V1left); :}
+				|
+				(VariableSingle_greska) error TACKAZAREZ:l
+				{: parser.report_error("Oporavak izvrsen do ; u liniji " + lleft, null);  :} {: RESULT=new VariableSingle_greska(); :}
+				;
+
+/* Oporavak je radjen na , */				
+VariableComma ::= (VariableComma_ok) VariableDecl:V1 ZAREZ {: RESULT=new VariableComma_ok(V1); RESULT.setLine(V1left); :}
+				|
+				(VariableComma_greska) error ZAREZ:l
+				{: parser.report_error("Oporavak izvrsen do , u liniji " + lleft, null);  :} {: RESULT=new VariableComma_greska(); :}
+				;
+				
+VariableDecl ::= (VariableDecl) IDENTIFIKATOR:I1 VariableOpcioneZagrade:V2 {: RESULT=new VariableDecl(I1, V2); RESULT.setLine(I1left); :};
+
+/* Za A nivo jedina moguca povratna vrednost je tipa VOID, hardkorovao sam */						
+MethodDeclList ::= (MethodDeclList) VOID MethodName:M1 LEVAZAGRADA DESNAZAGRADA VarDeclVectorForMethod:V2 LEVAVITICASTA StatementVector:S3 DESNAVITICASTA {: RESULT=new MethodDeclList(M1, V2, S3); RESULT.setLine(M1left); :};
+						
+MethodName ::= (MethodName) IDENTIFIKATOR:imeMetode {: RESULT=new MethodName(imeMetode); RESULT.setLine(imeMetodeleft); :};
+
+/* ovde bukvalno iza main metode se moze napisati: void main() int nesto1; char nesto2; {} */
+VarDeclVectorForMethod ::= (VarDeclVectorForMethod_notEmpty)  VarDeclVectorForMethod:V1 VariableDeclList:V2 {: RESULT=new VarDeclVectorForMethod_notEmpty(V1, V2); RESULT.setLine(V1left); :}
+						|
+						(VarDeclVectorForMethod_empty) {: RESULT=new VarDeclVectorForMethod_empty(); :} /* epsilon */
+						;
+						
+StatementVector ::= (StatementVector_notEmpty) StatementVector:S1 Statement:S2 {: RESULT=new StatementVector_notEmpty(S1, S2); RESULT.setLine(S1left); :}
+				|
+				(StatementVector_empty) {: RESULT=new StatementVector_empty(); :} /* epsilon */
+				;
+				
+Statement ::= (Statement_singleNoLabel) SingleStatement:S1 {: RESULT=new Statement_singleNoLabel(S1); RESULT.setLine(S1left); :}
+			|
+			(Statement_singleWithLabel) SingleStatementLabel:S1 SingleStatement:S2 {: RESULT=new Statement_singleWithLabel(S1, S2); RESULT.setLine(S1left); :}
+			|
+			(Statement_statements) Statements:S1 {: RESULT=new Statement_statements(S1); RESULT.setLine(S1left); :}
+			;
+			
+SingleStatementLabel ::= (SingleStatementLabel) Label:L1 DVETACKE {: RESULT=new SingleStatementLabel(L1); RESULT.setLine(L1left); :};
+
+/* Ime labele mora da se sacuva u sintaksnom stablu, zbog onemogucavanja redefinicija labele */
+Label ::= (Label) IDENTIFIKATOR:imeLabele {: RESULT=new Label(imeLabele); RESULT.setLine(imeLabeleleft); :};
+
+LabelIzaGoTo ::= (LabelIzaGoTo) IDENTIFIKATOR:mestoSkoka {: RESULT=new LabelIzaGoTo(mestoSkoka); RESULT.setLine(mestoSkokaleft); :};
+
+/* Za avgust treba da sklonim gotoStatement, i bilo koju podrsku za rad sa goto */
+/* Ovaj printStatementWithZarez mi nije bas jasan gde cu da ga koristim */
+/* umesto Label u zadnjoj smeni ..._gotoStatement, stavio sam IDENTIFIKATOR da mi se ta smena ne bi pozivala 2 puta */
+SingleStatement ::= (SingleStatement_designatorStatement) DesignatorStatement:D1 {: RESULT=new SingleStatement_designatorStatement(D1); RESULT.setLine(D1left); :}
+				|
+				(SingleStatement_returnStatement) RETURN TACKAZAREZ {: RESULT=new SingleStatement_returnStatement(); :}
+				|
+				(SingleStatement_readStatement) READ LEVAZAGRADA Designator:D1 DESNAZAGRADA TACKAZAREZ {: RESULT=new SingleStatement_readStatement(D1); RESULT.setLine(D1left); :}
+				|
+				(SingleStatement_printStatementWithoutZarez) PRINT LEVAZAGRADA Expr:E1 DESNAZAGRADA TACKAZAREZ {: RESULT=new SingleStatement_printStatementWithoutZarez(E1); RESULT.setLine(E1left); :}
+				|
+				(SingleStatement_printStatementWithZarez) PRINT LEVAZAGRADA Expr:E1 ZAREZ BROJ:B2 DESNAZAGRADA TACKAZAREZ {: RESULT=new SingleStatement_printStatementWithZarez(E1, B2); RESULT.setLine(E1left); :}
+				|
+				(SingleStatement_gotoStatement) GOTO LabelIzaGoTo:L1 TACKAZAREZ {: RESULT=new SingleStatement_gotoStatement(L1); RESULT.setLine(L1left); :}
+				;
+				
+Statements ::= (Statements) LEVAVITICASTA StatementVector:S1 DESNAVITICASTA {: RESULT=new Statements(S1); RESULT.setLine(S1left); :};
+
+DesignatorStatement ::= (DesignatorStatement_dodela) Designator:D1 AssignOperator:A2 Expr:E3 TACKAZAREZ {: RESULT=new DesignatorStatement_dodela(D1, A2, E3); RESULT.setLine(D1left); :}
+					|
+					(DesignatorStatement_greska) error TACKAZAREZ:l
+					{: parser.report_error("Oporavak izvrsen do ; u liniji " + lleft, null);  :} {: RESULT=new DesignatorStatement_greska(); :}
+					|
+					(DesignatorStatement_plusPlus) Designator:D1 PLUSPLUS TACKAZAREZ {: RESULT=new DesignatorStatement_plusPlus(D1); RESULT.setLine(D1left); :}
+					|
+					(DesignatorStatement_minusMinus) Designator:D1 MINUSMINUS TACKAZAREZ {: RESULT=new DesignatorStatement_minusMinus(D1); RESULT.setLine(D1left); :}
+					;
+
+/* Za avgust sam dodao jos jedan nivo u stablu, jer je ?? manje prioritetan od Addop */
+/* pa mora da bude iznad u sintaksnom stablu */
+/* tako da je 1 + 3 ?? -2 daje 4 ?? -2, a ne 1 ?? 3 */					
+Expr ::= (Expr) ExprList:E1 {: RESULT=new Expr(E1); RESULT.setLine(E1left); :};
+					
+ExprList ::= (Expr_avgust) ExprList:E1 TernaryOp:T2 ExprBasic:E3 {: RESULT=new Expr_avgust(E1, T2, E3); RESULT.setLine(E1left); :}
+		|
+		(Expr_januar) ExprBasic:E1 {: RESULT=new Expr_januar(E1); RESULT.setLine(E1left); :}
+		;
+		
+TernaryOp ::= (TernaryOp) TERNARNI {: RESULT=new TernaryOp(); :};
+					
+ExprBasic ::= (Expr_ListOfTerms) ExprBasic:E1 AddOperator:A2 Term:T3 {: RESULT=new Expr_ListOfTerms(E1, A2, T3); RESULT.setLine(E1left); :}
+		|
+		(Expr_SingleTerm) Term:T1 {: RESULT=new Expr_SingleTerm(T1); RESULT.setLine(T1left); :}
+		;
+		
+Term ::= (Term) TermList:T1 {: RESULT=new Term(T1); RESULT.setLine(T1left); :};
+		
+TermList ::= (Term_SingleFactor) Factor:F1 {: RESULT=new Term_SingleFactor(F1); RESULT.setLine(F1left); :}
+		|
+		(Term_ListOfFactors) TermList:T1 MulOperator:M2 Factor:F3 {: RESULT=new Term_ListOfFactors(T1, M2, F3); RESULT.setLine(T1left); :}
+		;
+		
+Factor ::= (Factor) FactorMoguciMinus:F1 FactorZamena:F2 {: RESULT=new Factor(F1, F2); RESULT.setLine(F1left); :};
+
+FactorMoguciMinus ::= (FactorMoguciMinus_minus) MINUS {: RESULT=new FactorMoguciMinus_minus(); :}
+					|
+					(FactorMoguciMinus_nijeMinus) {: RESULT=new FactorMoguciMinus_nijeMinus(); :} /* epsilon */
+					;
+					
+FactorZamena ::= (FactorZamena_designator) Designator:D1 {: RESULT=new FactorZamena_designator(D1); RESULT.setLine(D1left); :}
+				|
+				(FactorZamena_const) FactorConst:F1 {: RESULT=new FactorZamena_const(F1); RESULT.setLine(F1left); :}
+				|
+				(FactorZamena_new) NEW ArrayDecl:A1 {: RESULT=new FactorZamena_new(A1); RESULT.setLine(A1left); :}
+				|
+				(FactorZamena_expr) LEVAZAGRADA Expr:E1 DESNAZAGRADA {: RESULT=new FactorZamena_expr(E1); RESULT.setLine(E1left); :}
+				;
+				
+/* mora bar uglaste, jer nemam recorde i klase */
+ArrayDecl ::= (ArrayDecl) Type:T1 LEVAUGLASTA Expr:E2 DESNAUGLASTA {: RESULT=new ArrayDecl(T1, E2); RESULT.setLine(T1left); :};
+			
+/* Izdvojio sam u posebnu smenu, nisam morao */				
+FactorConst ::= (FactorConst_broj) BROJ:B1 {: RESULT=new FactorConst_broj(B1); RESULT.setLine(B1left); :}
+				|
+				(FactorConst_boolean) BOOLEAN:B1 {: RESULT=new FactorConst_boolean(B1); RESULT.setLine(B1left); :}
+				|
+				(FactorConst_char) CHAR:C1 {: RESULT=new FactorConst_char(C1); RESULT.setLine(C1left); :}
+				;
+				
+Designator ::= (Designator_onlyIdent) IDENTIFIKATOR:imeDesignatora {: RESULT=new Designator_onlyIdent(imeDesignatora); RESULT.setLine(imeDesignatoraleft); :}
+			|
+			(Designator_element) VariableNameZaNiz:V1 LEVAUGLASTA Expr:E2 DESNAUGLASTA {: RESULT=new Designator_element(V1, E2); RESULT.setLine(V1left); :}
+			;
+
+/* Posebna smena, da bi mogao da ga proglasim za objektni cvor */			
+VariableNameZaNiz ::= (VariableNameZaNiz) IDENTIFIKATOR:imeNiza {: RESULT=new VariableNameZaNiz(imeNiza); RESULT.setLine(imeNizaleft); :};
+
+AssignOperator ::= (AssignOperator) JEDNAKO {: RESULT=new AssignOperator(); :};
+
+AddOperator ::= (AddOperator_plus) PLUS {: RESULT=new AddOperator_plus(); :}
+			|
+			(AddOperator_minus) MINUS {: RESULT=new AddOperator_minus(); :}
+			;
+			
+MulOperator ::= (MulOperator_puta) PUTA {: RESULT=new MulOperator_puta(); :}
+			|
+			(MulOperator_podeljeno) PODELJENO {: RESULT=new MulOperator_podeljeno(); :}
+			|
+			(MulOperator_procenat) PROCENAT {: RESULT=new MulOperator_procenat(); :}
+			;

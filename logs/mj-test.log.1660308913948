@@ -1,0 +1,64 @@
+INFO  14:54:42,807 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  14:54:42,823 - #2 program
+INFO  14:54:42,824 - #29 Lazar
+INFO  14:54:42,824 - #3 {
+INFO  14:54:42,824 - #16 void
+INFO  14:54:42,824 - #29 main
+INFO  14:54:42,824 - #14 (
+INFO  14:54:42,824 - #15 )
+INFO  14:54:42,824 - #29 int
+INFO  14:54:42,825 - #29 max
+INFO  14:54:42,825 - #8 ,
+INFO  14:54:42,826 - #29 niz
+INFO  14:54:42,826 - #9 [
+INFO  14:54:42,826 - #10 ]
+INFO  14:54:42,826 - #6 ;
+INFO  14:54:42,826 - #3 {
+INFO  14:54:42,827 - #4 }
+INFO  14:54:42,827 - #4 }
+INFO  14:54:42,828 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_empty(
+  ) [ProgDeclList_empty]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             max
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               niz
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  14:54:42,828 - =====================================================================
+INFO  14:54:42,831 - Lokalnih promenljivih: 2
+INFO  14:54:42,831 - ---------------------------------------------------------------------
+INFO  14:54:42,832 - =====================================================================
+INFO  14:54:42,838 - Parsiranje i generisanje uspesno zavrseno!

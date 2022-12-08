@@ -1,0 +1,191 @@
+INFO  13:19:00,339 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  13:19:00,353 - #2 program
+INFO  13:19:00,353 - #28 test1
+INFO  13:19:00,353 - #5 const
+INFO  13:19:00,353 - #28 int
+INFO  13:19:00,353 - #28 nula
+INFO  13:19:00,354 - #7 =
+INFO  13:19:00,354 - #29 0
+INFO  13:19:00,354 - #8 ,
+INFO  13:19:00,354 - #28 jedan
+INFO  13:19:00,354 - #7 =
+INFO  13:19:00,354 - #29 1
+INFO  13:19:00,354 - #6 ;
+INFO  13:19:00,354 - #28 char
+INFO  13:19:00,355 - #28 m
+INFO  13:19:00,355 - #8 ,
+INFO  13:19:00,355 - #28 r
+INFO  13:19:00,355 - #9 [
+INFO  13:19:00,356 - #10 ]
+INFO  13:19:00,356 - #6 ;
+INFO  13:19:00,356 - #28 int
+INFO  13:19:00,356 - #28 prom
+INFO  13:19:00,356 - #6 ;
+INFO  13:19:00,357 - #5 const
+INFO  13:19:00,357 - #28 bool
+INFO  13:19:00,357 - #28 istina
+INFO  13:19:00,357 - #7 =
+INFO  13:19:00,357 - #30 1
+INFO  13:19:00,357 - #6 ;
+INFO  13:19:00,357 - #3 {
+INFO  13:19:00,357 - #16 void
+INFO  13:19:00,357 - #28 main
+INFO  13:19:00,357 - #14 (
+INFO  13:19:00,358 - #15 )
+INFO  13:19:00,358 - #28 int
+INFO  13:19:00,358 - #28 lazar
+INFO  13:19:00,358 - #8 ,
+INFO  13:19:00,358 - #28 proba
+INFO  13:19:00,358 - #9 [
+INFO  13:19:00,358 - #10 ]
+INFO  13:19:00,358 - #6 ;
+INFO  13:19:00,358 - #3 {
+INFO  13:19:00,358 - #28 proba
+INFO  13:19:00,358 - #23 ++
+INFO  13:19:00,358 - #6 ;
+INFO  13:19:00,359 - #4 }
+INFO  13:19:00,359 - #4 }
+INFO  13:19:00,360 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_variable(
+      ProgDeclList_variable(
+        ProgDeclList_const(
+          ProgDeclList_empty(
+          ) [ProgDeclList_empty]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclOptions_multiple(
+              ConstComma_ok(
+                ConstantDecl(
+                 nula
+                  Konstanta_broj(
+                   0
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstComma_ok]
+              ConstDeclOptions_single(
+                ConstSingle_ok(
+                  ConstantDecl(
+                   jedan
+                    Konstanta_broj(
+                     1
+                    ) [Konstanta_broj]
+                  ) [ConstantDecl]
+                ) [ConstSingle_ok]
+              ) [ConstDeclOptions_single]
+            ) [ConstDeclOptions_multiple]
+          ) [ConstDeclList]
+        ) [ProgDeclList_const]
+        VariableDeclList(
+          Type(
+           char
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               m
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_single(
+              VariableSingle_ok(
+                VariableDecl(
+                 r
+                  VariableOpcioneZagrade_uglasteZagrade(
+                  ) [VariableOpcioneZagrade_uglasteZagrade]
+                ) [VariableDecl]
+              ) [VariableSingle_ok]
+            ) [VariableDeclOptions_single]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [ProgDeclList_variable]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             prom
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclOptions_single(
+        ConstSingle_ok(
+          ConstantDecl(
+           istina
+            Konstanta_boolean(
+             1
+            ) [Konstanta_boolean]
+          ) [ConstantDecl]
+        ) [ConstSingle_ok]
+      ) [ConstDeclOptions_single]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             lazar
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               proba
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_plusPlus(
+            Designator_onlyIdent(
+             proba
+            ) [Designator_onlyIdent]
+          ) [DesignatorStatement_plusPlus]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  13:19:00,360 - =====================================================================
+ERROR 13:19:00,363 - GRESKA(DesignatorStatement_plusPlus)!Moze samo INT da se inkrementira, ovde to nije slucaj: proba na liniji 27
+INFO  13:19:00,363 - ---------------------------------------------------------------------
+INFO  13:19:00,364 - =====================================================================
+ERROR 13:19:00,364 - Parsiranje NIJE uspesno zavrseno!

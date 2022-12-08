@@ -1,0 +1,1592 @@
+INFO  13:00:51,015 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  13:00:51,030 - #2 program
+INFO  13:00:51,030 - #28 Test1
+INFO  13:00:51,030 - #3 {
+INFO  13:00:51,031 - #16 void
+INFO  13:00:51,031 - #28 main
+INFO  13:00:51,031 - #14 (
+INFO  13:00:51,031 - #15 )
+INFO  13:00:51,031 - #28 int
+INFO  13:00:51,032 - #28 a
+INFO  13:00:51,032 - #8 ,
+INFO  13:00:51,033 - #28 b
+INFO  13:00:51,033 - #8 ,
+INFO  13:00:51,033 - #28 c
+INFO  13:00:51,033 - #8 ,
+INFO  13:00:51,033 - #28 i
+INFO  13:00:51,033 - #6 ;
+INFO  13:00:51,033 - #28 int
+INFO  13:00:51,033 - #28 arr
+INFO  13:00:51,033 - #9 [
+INFO  13:00:51,034 - #10 ]
+INFO  13:00:51,034 - #6 ;
+INFO  13:00:51,034 - #3 {
+INFO  13:00:51,045 - #28 a
+INFO  13:00:51,045 - #7 =
+INFO  13:00:51,045 - #24 -
+INFO  13:00:51,046 - #29 1
+INFO  13:00:51,046 - #6 ;
+INFO  13:00:51,047 - #28 b
+INFO  13:00:51,047 - #7 =
+INFO  13:00:51,047 - #24 -
+INFO  13:00:51,047 - #29 1
+INFO  13:00:51,047 - #6 ;
+INFO  13:00:51,047 - #28 c
+INFO  13:00:51,047 - #7 =
+INFO  13:00:51,047 - #24 -
+INFO  13:00:51,047 - #29 1
+INFO  13:00:51,047 - #6 ;
+INFO  13:00:51,047 - #28 i
+INFO  13:00:51,047 - #7 =
+INFO  13:00:51,047 - #28 a
+INFO  13:00:51,048 - #24 -
+INFO  13:00:51,048 - #28 b
+INFO  13:00:51,048 - #24 -
+INFO  13:00:51,048 - #28 c
+INFO  13:00:51,048 - #6 ;
+INFO  13:00:51,048 - #20 print
+INFO  13:00:51,048 - #14 (
+INFO  13:00:51,048 - #28 i
+INFO  13:00:51,048 - #15 )
+INFO  13:00:51,048 - #6 ;
+INFO  13:00:51,049 - #20 print
+INFO  13:00:51,049 - #14 (
+INFO  13:00:51,049 - #28 eol
+INFO  13:00:51,049 - #15 )
+INFO  13:00:51,049 - #6 ;
+INFO  13:00:51,049 - #28 a
+INFO  13:00:51,049 - #7 =
+INFO  13:00:51,049 - #24 -
+INFO  13:00:51,049 - #29 1
+INFO  13:00:51,049 - #6 ;
+INFO  13:00:51,049 - #28 b
+INFO  13:00:51,049 - #7 =
+INFO  13:00:51,049 - #24 -
+INFO  13:00:51,049 - #29 1
+INFO  13:00:51,049 - #6 ;
+INFO  13:00:51,049 - #28 c
+INFO  13:00:51,049 - #7 =
+INFO  13:00:51,049 - #24 -
+INFO  13:00:51,049 - #29 1
+INFO  13:00:51,049 - #6 ;
+INFO  13:00:51,049 - #28 i
+INFO  13:00:51,049 - #7 =
+INFO  13:00:51,049 - #29 1
+INFO  13:00:51,049 - #6 ;
+INFO  13:00:51,049 - #28 arr
+INFO  13:00:51,049 - #7 =
+INFO  13:00:51,049 - #26 new
+INFO  13:00:51,049 - #28 int
+INFO  13:00:51,050 - #9 [
+INFO  13:00:51,050 - #29 5
+INFO  13:00:51,050 - #10 ]
+INFO  13:00:51,050 - #6 ;
+INFO  13:00:51,050 - #28 arr
+INFO  13:00:51,050 - #9 [
+INFO  13:00:51,050 - #29 0
+INFO  13:00:51,050 - #10 ]
+INFO  13:00:51,050 - #7 =
+INFO  13:00:51,051 - #24 -
+INFO  13:00:51,051 - #29 2
+INFO  13:00:51,051 - #6 ;
+INFO  13:00:51,051 - #28 arr
+INFO  13:00:51,051 - #9 [
+INFO  13:00:51,051 - #29 1
+INFO  13:00:51,051 - #10 ]
+INFO  13:00:51,051 - #7 =
+INFO  13:00:51,051 - #24 -
+INFO  13:00:51,051 - #29 1
+INFO  13:00:51,051 - #6 ;
+INFO  13:00:51,051 - #28 arr
+INFO  13:00:51,051 - #9 [
+INFO  13:00:51,051 - #29 2
+INFO  13:00:51,051 - #10 ]
+INFO  13:00:51,051 - #7 =
+INFO  13:00:51,051 - #29 1
+INFO  13:00:51,051 - #6 ;
+INFO  13:00:51,051 - #28 i
+INFO  13:00:51,051 - #7 =
+INFO  13:00:51,051 - #24 -
+INFO  13:00:51,051 - #14 (
+INFO  13:00:51,051 - #24 -
+INFO  13:00:51,051 - #28 arr
+INFO  13:00:51,051 - #9 [
+INFO  13:00:51,051 - #24 -
+INFO  13:00:51,051 - #14 (
+INFO  13:00:51,051 - #24 -
+INFO  13:00:51,052 - #29 1
+INFO  13:00:51,052 - #15 )
+INFO  13:00:51,052 - #10 ]
+INFO  13:00:51,052 - #24 -
+INFO  13:00:51,052 - #14 (
+INFO  13:00:51,052 - #24 -
+INFO  13:00:51,052 - #28 arr
+INFO  13:00:51,052 - #9 [
+INFO  13:00:51,052 - #24 -
+INFO  13:00:51,052 - #28 arr
+INFO  13:00:51,052 - #9 [
+INFO  13:00:51,052 - #29 0
+INFO  13:00:51,052 - #10 ]
+INFO  13:00:51,052 - #25 +
+INFO  13:00:51,052 - #14 (
+INFO  13:00:51,053 - #24 -
+INFO  13:00:51,055 - #29 1
+INFO  13:00:51,055 - #15 )
+INFO  13:00:51,055 - #11 *
+INFO  13:00:51,055 - #29 2
+INFO  13:00:51,055 - #10 ]
+INFO  13:00:51,055 - #15 )
+INFO  13:00:51,056 - #11 *
+INFO  13:00:51,056 - #29 2
+INFO  13:00:51,056 - #24 -
+INFO  13:00:51,056 - #28 arr
+INFO  13:00:51,056 - #9 [
+INFO  13:00:51,056 - #24 -
+INFO  13:00:51,056 - #28 arr
+INFO  13:00:51,056 - #9 [
+INFO  13:00:51,056 - #29 2
+INFO  13:00:51,056 - #10 ]
+INFO  13:00:51,056 - #25 +
+INFO  13:00:51,056 - #29 1
+INFO  13:00:51,056 - #11 *
+INFO  13:00:51,056 - #29 2
+INFO  13:00:51,056 - #24 -
+INFO  13:00:51,056 - #29 3
+INFO  13:00:51,056 - #25 +
+INFO  13:00:51,056 - #14 (
+INFO  13:00:51,056 - #29 5
+INFO  13:00:51,056 - #11 *
+INFO  13:00:51,056 - #28 arr
+INFO  13:00:51,056 - #9 [
+INFO  13:00:51,056 - #29 2
+INFO  13:00:51,056 - #10 ]
+INFO  13:00:51,056 - #24 -
+INFO  13:00:51,056 - #29 1
+INFO  13:00:51,056 - #24 -
+INFO  13:00:51,056 - #29 1
+INFO  13:00:51,056 - #11 *
+INFO  13:00:51,056 - #29 1
+INFO  13:00:51,056 - #15 )
+INFO  13:00:51,056 - #10 ]
+INFO  13:00:51,056 - #15 )
+INFO  13:00:51,056 - #25 +
+INFO  13:00:51,056 - #28 arr
+INFO  13:00:51,056 - #9 [
+INFO  13:00:51,056 - #24 -
+INFO  13:00:51,057 - #28 arr
+INFO  13:00:51,057 - #9 [
+INFO  13:00:51,057 - #24 -
+INFO  13:00:51,057 - #28 a
+INFO  13:00:51,057 - #10 ]
+INFO  13:00:51,057 - #10 ]
+INFO  13:00:51,057 - #6 ;
+INFO  13:00:51,057 - #20 print
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,057 - #28 i
+INFO  13:00:51,057 - #15 )
+INFO  13:00:51,057 - #6 ;
+INFO  13:00:51,057 - #20 print
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,057 - #28 eol
+INFO  13:00:51,057 - #15 )
+INFO  13:00:51,057 - #6 ;
+INFO  13:00:51,057 - #28 i
+INFO  13:00:51,057 - #7 =
+INFO  13:00:51,057 - #24 -
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,057 - #29 3
+INFO  13:00:51,057 - #25 +
+INFO  13:00:51,057 - #29 2
+INFO  13:00:51,057 - #24 -
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,057 - #24 -
+INFO  13:00:51,057 - #29 2
+INFO  13:00:51,057 - #15 )
+INFO  13:00:51,057 - #25 +
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,057 - #24 -
+INFO  13:00:51,057 - #29 2
+INFO  13:00:51,057 - #25 +
+INFO  13:00:51,057 - #29 3
+INFO  13:00:51,057 - #15 )
+INFO  13:00:51,057 - #15 )
+INFO  13:00:51,057 - #6 ;
+INFO  13:00:51,057 - #20 print
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,057 - #28 i
+INFO  13:00:51,057 - #15 )
+INFO  13:00:51,057 - #6 ;
+INFO  13:00:51,057 - #20 print
+INFO  13:00:51,057 - #14 (
+INFO  13:00:51,058 - #28 eol
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,058 - #6 ;
+INFO  13:00:51,058 - #28 i
+INFO  13:00:51,058 - #7 =
+INFO  13:00:51,058 - #24 -
+INFO  13:00:51,058 - #14 (
+INFO  13:00:51,058 - #24 -
+INFO  13:00:51,058 - #14 (
+INFO  13:00:51,058 - #24 -
+INFO  13:00:51,058 - #29 1
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,058 - #24 -
+INFO  13:00:51,058 - #14 (
+INFO  13:00:51,058 - #24 -
+INFO  13:00:51,058 - #29 2
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,058 - #25 +
+INFO  13:00:51,058 - #29 1
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,058 - #6 ;
+INFO  13:00:51,058 - #20 print
+INFO  13:00:51,058 - #14 (
+INFO  13:00:51,058 - #28 i
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,058 - #6 ;
+INFO  13:00:51,058 - #20 print
+INFO  13:00:51,058 - #14 (
+INFO  13:00:51,058 - #28 eol
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,058 - #6 ;
+INFO  13:00:51,058 - #20 print
+INFO  13:00:51,058 - #14 (
+INFO  13:00:51,058 - #31 e
+INFO  13:00:51,058 - #15 )
+INFO  13:00:51,059 - #6 ;
+INFO  13:00:51,059 - #20 print
+INFO  13:00:51,059 - #14 (
+INFO  13:00:51,059 - #31 n
+INFO  13:00:51,059 - #15 )
+INFO  13:00:51,059 - #6 ;
+INFO  13:00:51,059 - #20 print
+INFO  13:00:51,059 - #14 (
+INFO  13:00:51,059 - #31 d
+INFO  13:00:51,059 - #15 )
+INFO  13:00:51,059 - #6 ;
+INFO  13:00:51,059 - #4 }
+INFO  13:00:51,059 - #4 }
+INFO  13:00:51,066 - Program(
+  ProgramIdent(
+   Test1
+  ) [ProgramIdent]
+  ProgDeclList_empty(
+  ) [ProgDeclList_empty]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_notEmpty(
+        VarDeclVectorForMethod_empty(
+        ) [VarDeclVectorForMethod_empty]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               a
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_multiple(
+              VariableComma_ok(
+                VariableDecl(
+                 b
+                  VariableOpcioneZagrade_bezZagrada(
+                  ) [VariableOpcioneZagrade_bezZagrada]
+                ) [VariableDecl]
+              ) [VariableComma_ok]
+              VariableDeclOptions_multiple(
+                VariableComma_ok(
+                  VariableDecl(
+                   c
+                    VariableOpcioneZagrade_bezZagrada(
+                    ) [VariableOpcioneZagrade_bezZagrada]
+                  ) [VariableDecl]
+                ) [VariableComma_ok]
+                VariableDeclOptions_single(
+                  VariableSingle_ok(
+                    VariableDecl(
+                     i
+                      VariableOpcioneZagrade_bezZagrada(
+                      ) [VariableOpcioneZagrade_bezZagrada]
+                    ) [VariableDecl]
+                  ) [VariableSingle_ok]
+                ) [VariableDeclOptions_single]
+              ) [VariableDeclOptions_multiple]
+            ) [VariableDeclOptions_multiple]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [VarDeclVectorForMethod_notEmpty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             arr
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_notEmpty(
+          StatementVector_notEmpty(
+            StatementVector_notEmpty(
+              StatementVector_notEmpty(
+                StatementVector_notEmpty(
+                  StatementVector_notEmpty(
+                    StatementVector_notEmpty(
+                      StatementVector_notEmpty(
+                        StatementVector_notEmpty(
+                          StatementVector_notEmpty(
+                            StatementVector_notEmpty(
+                              StatementVector_notEmpty(
+                                StatementVector_notEmpty(
+                                  StatementVector_notEmpty(
+                                    StatementVector_notEmpty(
+                                      StatementVector_notEmpty(
+                                        StatementVector_notEmpty(
+                                          StatementVector_notEmpty(
+                                            StatementVector_notEmpty(
+                                              StatementVector_notEmpty(
+                                                StatementVector_notEmpty(
+                                                  StatementVector_notEmpty(
+                                                    StatementVector_notEmpty(
+                                                      StatementVector_notEmpty(
+                                                        StatementVector_empty(
+                                                        ) [StatementVector_empty]
+                                                        Statement_singleNoLabel(
+                                                          SingleStatement_designatorStatement(
+                                                            DesignatorStatement_dodela(
+                                                              Designator_onlyIdent(
+                                                               a
+                                                              ) [Designator_onlyIdent]
+                                                              AssignOperator(
+                                                              ) [AssignOperator]
+                                                              Expr_SingleTerm(
+                                                                Term_SingleFactor(
+                                                                  Factor(
+                                                                    FactorMoguciMinus_minus(
+                                                                    ) [FactorMoguciMinus_minus]
+                                                                    FactorZamena_const(
+                                                                      FactorConst_broj(
+                                                                       1
+                                                                      ) [FactorConst_broj]
+                                                                    ) [FactorZamena_const]
+                                                                  ) [Factor]
+                                                                ) [Term_SingleFactor]
+                                                              ) [Expr_SingleTerm]
+                                                            ) [DesignatorStatement_dodela]
+                                                          ) [SingleStatement_designatorStatement]
+                                                        ) [Statement_singleNoLabel]
+                                                      ) [StatementVector_notEmpty]
+                                                      Statement_singleNoLabel(
+                                                        SingleStatement_designatorStatement(
+                                                          DesignatorStatement_dodela(
+                                                            Designator_onlyIdent(
+                                                             b
+                                                            ) [Designator_onlyIdent]
+                                                            AssignOperator(
+                                                            ) [AssignOperator]
+                                                            Expr_SingleTerm(
+                                                              Term_SingleFactor(
+                                                                Factor(
+                                                                  FactorMoguciMinus_minus(
+                                                                  ) [FactorMoguciMinus_minus]
+                                                                  FactorZamena_const(
+                                                                    FactorConst_broj(
+                                                                     1
+                                                                    ) [FactorConst_broj]
+                                                                  ) [FactorZamena_const]
+                                                                ) [Factor]
+                                                              ) [Term_SingleFactor]
+                                                            ) [Expr_SingleTerm]
+                                                          ) [DesignatorStatement_dodela]
+                                                        ) [SingleStatement_designatorStatement]
+                                                      ) [Statement_singleNoLabel]
+                                                    ) [StatementVector_notEmpty]
+                                                    Statement_singleNoLabel(
+                                                      SingleStatement_designatorStatement(
+                                                        DesignatorStatement_dodela(
+                                                          Designator_onlyIdent(
+                                                           c
+                                                          ) [Designator_onlyIdent]
+                                                          AssignOperator(
+                                                          ) [AssignOperator]
+                                                          Expr_SingleTerm(
+                                                            Term_SingleFactor(
+                                                              Factor(
+                                                                FactorMoguciMinus_minus(
+                                                                ) [FactorMoguciMinus_minus]
+                                                                FactorZamena_const(
+                                                                  FactorConst_broj(
+                                                                   1
+                                                                  ) [FactorConst_broj]
+                                                                ) [FactorZamena_const]
+                                                              ) [Factor]
+                                                            ) [Term_SingleFactor]
+                                                          ) [Expr_SingleTerm]
+                                                        ) [DesignatorStatement_dodela]
+                                                      ) [SingleStatement_designatorStatement]
+                                                    ) [Statement_singleNoLabel]
+                                                  ) [StatementVector_notEmpty]
+                                                  Statement_singleNoLabel(
+                                                    SingleStatement_designatorStatement(
+                                                      DesignatorStatement_dodela(
+                                                        Designator_onlyIdent(
+                                                         i
+                                                        ) [Designator_onlyIdent]
+                                                        AssignOperator(
+                                                        ) [AssignOperator]
+                                                        Expr_ListOfTerms(
+                                                          Expr_ListOfTerms(
+                                                            Expr_SingleTerm(
+                                                              Term_SingleFactor(
+                                                                Factor(
+                                                                  FactorMoguciMinus_nijeMinus(
+                                                                  ) [FactorMoguciMinus_nijeMinus]
+                                                                  FactorZamena_designator(
+                                                                    Designator_onlyIdent(
+                                                                     a
+                                                                    ) [Designator_onlyIdent]
+                                                                  ) [FactorZamena_designator]
+                                                                ) [Factor]
+                                                              ) [Term_SingleFactor]
+                                                            ) [Expr_SingleTerm]
+                                                            AddOperator_minus(
+                                                            ) [AddOperator_minus]
+                                                            Term_SingleFactor(
+                                                              Factor(
+                                                                FactorMoguciMinus_nijeMinus(
+                                                                ) [FactorMoguciMinus_nijeMinus]
+                                                                FactorZamena_designator(
+                                                                  Designator_onlyIdent(
+                                                                   b
+                                                                  ) [Designator_onlyIdent]
+                                                                ) [FactorZamena_designator]
+                                                              ) [Factor]
+                                                            ) [Term_SingleFactor]
+                                                          ) [Expr_ListOfTerms]
+                                                          AddOperator_minus(
+                                                          ) [AddOperator_minus]
+                                                          Term_SingleFactor(
+                                                            Factor(
+                                                              FactorMoguciMinus_nijeMinus(
+                                                              ) [FactorMoguciMinus_nijeMinus]
+                                                              FactorZamena_designator(
+                                                                Designator_onlyIdent(
+                                                                 c
+                                                                ) [Designator_onlyIdent]
+                                                              ) [FactorZamena_designator]
+                                                            ) [Factor]
+                                                          ) [Term_SingleFactor]
+                                                        ) [Expr_ListOfTerms]
+                                                      ) [DesignatorStatement_dodela]
+                                                    ) [SingleStatement_designatorStatement]
+                                                  ) [Statement_singleNoLabel]
+                                                ) [StatementVector_notEmpty]
+                                                Statement_singleNoLabel(
+                                                  SingleStatement_printStatementWithoutZarez(
+                                                    Expr_SingleTerm(
+                                                      Term_SingleFactor(
+                                                        Factor(
+                                                          FactorMoguciMinus_nijeMinus(
+                                                          ) [FactorMoguciMinus_nijeMinus]
+                                                          FactorZamena_designator(
+                                                            Designator_onlyIdent(
+                                                             i
+                                                            ) [Designator_onlyIdent]
+                                                          ) [FactorZamena_designator]
+                                                        ) [Factor]
+                                                      ) [Term_SingleFactor]
+                                                    ) [Expr_SingleTerm]
+                                                  ) [SingleStatement_printStatementWithoutZarez]
+                                                ) [Statement_singleNoLabel]
+                                              ) [StatementVector_notEmpty]
+                                              Statement_singleNoLabel(
+                                                SingleStatement_printStatementWithoutZarez(
+                                                  Expr_SingleTerm(
+                                                    Term_SingleFactor(
+                                                      Factor(
+                                                        FactorMoguciMinus_nijeMinus(
+                                                        ) [FactorMoguciMinus_nijeMinus]
+                                                        FactorZamena_designator(
+                                                          Designator_onlyIdent(
+                                                           eol
+                                                          ) [Designator_onlyIdent]
+                                                        ) [FactorZamena_designator]
+                                                      ) [Factor]
+                                                    ) [Term_SingleFactor]
+                                                  ) [Expr_SingleTerm]
+                                                ) [SingleStatement_printStatementWithoutZarez]
+                                              ) [Statement_singleNoLabel]
+                                            ) [StatementVector_notEmpty]
+                                            Statement_singleNoLabel(
+                                              SingleStatement_designatorStatement(
+                                                DesignatorStatement_dodela(
+                                                  Designator_onlyIdent(
+                                                   a
+                                                  ) [Designator_onlyIdent]
+                                                  AssignOperator(
+                                                  ) [AssignOperator]
+                                                  Expr_SingleTerm(
+                                                    Term_SingleFactor(
+                                                      Factor(
+                                                        FactorMoguciMinus_minus(
+                                                        ) [FactorMoguciMinus_minus]
+                                                        FactorZamena_const(
+                                                          FactorConst_broj(
+                                                           1
+                                                          ) [FactorConst_broj]
+                                                        ) [FactorZamena_const]
+                                                      ) [Factor]
+                                                    ) [Term_SingleFactor]
+                                                  ) [Expr_SingleTerm]
+                                                ) [DesignatorStatement_dodela]
+                                              ) [SingleStatement_designatorStatement]
+                                            ) [Statement_singleNoLabel]
+                                          ) [StatementVector_notEmpty]
+                                          Statement_singleNoLabel(
+                                            SingleStatement_designatorStatement(
+                                              DesignatorStatement_dodela(
+                                                Designator_onlyIdent(
+                                                 b
+                                                ) [Designator_onlyIdent]
+                                                AssignOperator(
+                                                ) [AssignOperator]
+                                                Expr_SingleTerm(
+                                                  Term_SingleFactor(
+                                                    Factor(
+                                                      FactorMoguciMinus_minus(
+                                                      ) [FactorMoguciMinus_minus]
+                                                      FactorZamena_const(
+                                                        FactorConst_broj(
+                                                         1
+                                                        ) [FactorConst_broj]
+                                                      ) [FactorZamena_const]
+                                                    ) [Factor]
+                                                  ) [Term_SingleFactor]
+                                                ) [Expr_SingleTerm]
+                                              ) [DesignatorStatement_dodela]
+                                            ) [SingleStatement_designatorStatement]
+                                          ) [Statement_singleNoLabel]
+                                        ) [StatementVector_notEmpty]
+                                        Statement_singleNoLabel(
+                                          SingleStatement_designatorStatement(
+                                            DesignatorStatement_dodela(
+                                              Designator_onlyIdent(
+                                               c
+                                              ) [Designator_onlyIdent]
+                                              AssignOperator(
+                                              ) [AssignOperator]
+                                              Expr_SingleTerm(
+                                                Term_SingleFactor(
+                                                  Factor(
+                                                    FactorMoguciMinus_minus(
+                                                    ) [FactorMoguciMinus_minus]
+                                                    FactorZamena_const(
+                                                      FactorConst_broj(
+                                                       1
+                                                      ) [FactorConst_broj]
+                                                    ) [FactorZamena_const]
+                                                  ) [Factor]
+                                                ) [Term_SingleFactor]
+                                              ) [Expr_SingleTerm]
+                                            ) [DesignatorStatement_dodela]
+                                          ) [SingleStatement_designatorStatement]
+                                        ) [Statement_singleNoLabel]
+                                      ) [StatementVector_notEmpty]
+                                      Statement_singleNoLabel(
+                                        SingleStatement_designatorStatement(
+                                          DesignatorStatement_dodela(
+                                            Designator_onlyIdent(
+                                             i
+                                            ) [Designator_onlyIdent]
+                                            AssignOperator(
+                                            ) [AssignOperator]
+                                            Expr_SingleTerm(
+                                              Term_SingleFactor(
+                                                Factor(
+                                                  FactorMoguciMinus_nijeMinus(
+                                                  ) [FactorMoguciMinus_nijeMinus]
+                                                  FactorZamena_const(
+                                                    FactorConst_broj(
+                                                     1
+                                                    ) [FactorConst_broj]
+                                                  ) [FactorZamena_const]
+                                                ) [Factor]
+                                              ) [Term_SingleFactor]
+                                            ) [Expr_SingleTerm]
+                                          ) [DesignatorStatement_dodela]
+                                        ) [SingleStatement_designatorStatement]
+                                      ) [Statement_singleNoLabel]
+                                    ) [StatementVector_notEmpty]
+                                    Statement_singleNoLabel(
+                                      SingleStatement_designatorStatement(
+                                        DesignatorStatement_dodela(
+                                          Designator_onlyIdent(
+                                           arr
+                                          ) [Designator_onlyIdent]
+                                          AssignOperator(
+                                          ) [AssignOperator]
+                                          Expr_SingleTerm(
+                                            Term_SingleFactor(
+                                              Factor(
+                                                FactorMoguciMinus_nijeMinus(
+                                                ) [FactorMoguciMinus_nijeMinus]
+                                                FactorZamena_new(
+                                                  ArrayDecl(
+                                                    Type(
+                                                     int
+                                                    ) [Type]
+                                                    Expr_SingleTerm(
+                                                      Term_SingleFactor(
+                                                        Factor(
+                                                          FactorMoguciMinus_nijeMinus(
+                                                          ) [FactorMoguciMinus_nijeMinus]
+                                                          FactorZamena_const(
+                                                            FactorConst_broj(
+                                                             5
+                                                            ) [FactorConst_broj]
+                                                          ) [FactorZamena_const]
+                                                        ) [Factor]
+                                                      ) [Term_SingleFactor]
+                                                    ) [Expr_SingleTerm]
+                                                  ) [ArrayDecl]
+                                                ) [FactorZamena_new]
+                                              ) [Factor]
+                                            ) [Term_SingleFactor]
+                                          ) [Expr_SingleTerm]
+                                        ) [DesignatorStatement_dodela]
+                                      ) [SingleStatement_designatorStatement]
+                                    ) [Statement_singleNoLabel]
+                                  ) [StatementVector_notEmpty]
+                                  Statement_singleNoLabel(
+                                    SingleStatement_designatorStatement(
+                                      DesignatorStatement_dodela(
+                                        Designator_element(
+                                          VariableNameZaNiz(
+                                           arr
+                                          ) [VariableNameZaNiz]
+                                          Expr_SingleTerm(
+                                            Term_SingleFactor(
+                                              Factor(
+                                                FactorMoguciMinus_nijeMinus(
+                                                ) [FactorMoguciMinus_nijeMinus]
+                                                FactorZamena_const(
+                                                  FactorConst_broj(
+                                                   0
+                                                  ) [FactorConst_broj]
+                                                ) [FactorZamena_const]
+                                              ) [Factor]
+                                            ) [Term_SingleFactor]
+                                          ) [Expr_SingleTerm]
+                                        ) [Designator_element]
+                                        AssignOperator(
+                                        ) [AssignOperator]
+                                        Expr_SingleTerm(
+                                          Term_SingleFactor(
+                                            Factor(
+                                              FactorMoguciMinus_minus(
+                                              ) [FactorMoguciMinus_minus]
+                                              FactorZamena_const(
+                                                FactorConst_broj(
+                                                 2
+                                                ) [FactorConst_broj]
+                                              ) [FactorZamena_const]
+                                            ) [Factor]
+                                          ) [Term_SingleFactor]
+                                        ) [Expr_SingleTerm]
+                                      ) [DesignatorStatement_dodela]
+                                    ) [SingleStatement_designatorStatement]
+                                  ) [Statement_singleNoLabel]
+                                ) [StatementVector_notEmpty]
+                                Statement_singleNoLabel(
+                                  SingleStatement_designatorStatement(
+                                    DesignatorStatement_dodela(
+                                      Designator_element(
+                                        VariableNameZaNiz(
+                                         arr
+                                        ) [VariableNameZaNiz]
+                                        Expr_SingleTerm(
+                                          Term_SingleFactor(
+                                            Factor(
+                                              FactorMoguciMinus_nijeMinus(
+                                              ) [FactorMoguciMinus_nijeMinus]
+                                              FactorZamena_const(
+                                                FactorConst_broj(
+                                                 1
+                                                ) [FactorConst_broj]
+                                              ) [FactorZamena_const]
+                                            ) [Factor]
+                                          ) [Term_SingleFactor]
+                                        ) [Expr_SingleTerm]
+                                      ) [Designator_element]
+                                      AssignOperator(
+                                      ) [AssignOperator]
+                                      Expr_SingleTerm(
+                                        Term_SingleFactor(
+                                          Factor(
+                                            FactorMoguciMinus_minus(
+                                            ) [FactorMoguciMinus_minus]
+                                            FactorZamena_const(
+                                              FactorConst_broj(
+                                               1
+                                              ) [FactorConst_broj]
+                                            ) [FactorZamena_const]
+                                          ) [Factor]
+                                        ) [Term_SingleFactor]
+                                      ) [Expr_SingleTerm]
+                                    ) [DesignatorStatement_dodela]
+                                  ) [SingleStatement_designatorStatement]
+                                ) [Statement_singleNoLabel]
+                              ) [StatementVector_notEmpty]
+                              Statement_singleNoLabel(
+                                SingleStatement_designatorStatement(
+                                  DesignatorStatement_dodela(
+                                    Designator_element(
+                                      VariableNameZaNiz(
+                                       arr
+                                      ) [VariableNameZaNiz]
+                                      Expr_SingleTerm(
+                                        Term_SingleFactor(
+                                          Factor(
+                                            FactorMoguciMinus_nijeMinus(
+                                            ) [FactorMoguciMinus_nijeMinus]
+                                            FactorZamena_const(
+                                              FactorConst_broj(
+                                               2
+                                              ) [FactorConst_broj]
+                                            ) [FactorZamena_const]
+                                          ) [Factor]
+                                        ) [Term_SingleFactor]
+                                      ) [Expr_SingleTerm]
+                                    ) [Designator_element]
+                                    AssignOperator(
+                                    ) [AssignOperator]
+                                    Expr_SingleTerm(
+                                      Term_SingleFactor(
+                                        Factor(
+                                          FactorMoguciMinus_nijeMinus(
+                                          ) [FactorMoguciMinus_nijeMinus]
+                                          FactorZamena_const(
+                                            FactorConst_broj(
+                                             1
+                                            ) [FactorConst_broj]
+                                          ) [FactorZamena_const]
+                                        ) [Factor]
+                                      ) [Term_SingleFactor]
+                                    ) [Expr_SingleTerm]
+                                  ) [DesignatorStatement_dodela]
+                                ) [SingleStatement_designatorStatement]
+                              ) [Statement_singleNoLabel]
+                            ) [StatementVector_notEmpty]
+                            Statement_singleNoLabel(
+                              SingleStatement_designatorStatement(
+                                DesignatorStatement_dodela(
+                                  Designator_onlyIdent(
+                                   i
+                                  ) [Designator_onlyIdent]
+                                  AssignOperator(
+                                  ) [AssignOperator]
+                                  Expr_ListOfTerms(
+                                    Expr_SingleTerm(
+                                      Term_SingleFactor(
+                                        Factor(
+                                          FactorMoguciMinus_minus(
+                                          ) [FactorMoguciMinus_minus]
+                                          FactorZamena_expr(
+                                            Expr_ListOfTerms(
+                                              Expr_ListOfTerms(
+                                                Expr_SingleTerm(
+                                                  Term_SingleFactor(
+                                                    Factor(
+                                                      FactorMoguciMinus_minus(
+                                                      ) [FactorMoguciMinus_minus]
+                                                      FactorZamena_designator(
+                                                        Designator_element(
+                                                          VariableNameZaNiz(
+                                                           arr
+                                                          ) [VariableNameZaNiz]
+                                                          Expr_SingleTerm(
+                                                            Term_SingleFactor(
+                                                              Factor(
+                                                                FactorMoguciMinus_minus(
+                                                                ) [FactorMoguciMinus_minus]
+                                                                FactorZamena_expr(
+                                                                  Expr_SingleTerm(
+                                                                    Term_SingleFactor(
+                                                                      Factor(
+                                                                        FactorMoguciMinus_minus(
+                                                                        ) [FactorMoguciMinus_minus]
+                                                                        FactorZamena_const(
+                                                                          FactorConst_broj(
+                                                                           1
+                                                                          ) [FactorConst_broj]
+                                                                        ) [FactorZamena_const]
+                                                                      ) [Factor]
+                                                                    ) [Term_SingleFactor]
+                                                                  ) [Expr_SingleTerm]
+                                                                ) [FactorZamena_expr]
+                                                              ) [Factor]
+                                                            ) [Term_SingleFactor]
+                                                          ) [Expr_SingleTerm]
+                                                        ) [Designator_element]
+                                                      ) [FactorZamena_designator]
+                                                    ) [Factor]
+                                                  ) [Term_SingleFactor]
+                                                ) [Expr_SingleTerm]
+                                                AddOperator_minus(
+                                                ) [AddOperator_minus]
+                                                Term_ListOfFactors(
+                                                  Term_SingleFactor(
+                                                    Factor(
+                                                      FactorMoguciMinus_nijeMinus(
+                                                      ) [FactorMoguciMinus_nijeMinus]
+                                                      FactorZamena_expr(
+                                                        Expr_SingleTerm(
+                                                          Term_SingleFactor(
+                                                            Factor(
+                                                              FactorMoguciMinus_minus(
+                                                              ) [FactorMoguciMinus_minus]
+                                                              FactorZamena_designator(
+                                                                Designator_element(
+                                                                  VariableNameZaNiz(
+                                                                   arr
+                                                                  ) [VariableNameZaNiz]
+                                                                  Expr_ListOfTerms(
+                                                                    Expr_SingleTerm(
+                                                                      Term_SingleFactor(
+                                                                        Factor(
+                                                                          FactorMoguciMinus_minus(
+                                                                          ) [FactorMoguciMinus_minus]
+                                                                          FactorZamena_designator(
+                                                                            Designator_element(
+                                                                              VariableNameZaNiz(
+                                                                               arr
+                                                                              ) [VariableNameZaNiz]
+                                                                              Expr_SingleTerm(
+                                                                                Term_SingleFactor(
+                                                                                  Factor(
+                                                                                    FactorMoguciMinus_nijeMinus(
+                                                                                    ) [FactorMoguciMinus_nijeMinus]
+                                                                                    FactorZamena_const(
+                                                                                      FactorConst_broj(
+                                                                                       0
+                                                                                      ) [FactorConst_broj]
+                                                                                    ) [FactorZamena_const]
+                                                                                  ) [Factor]
+                                                                                ) [Term_SingleFactor]
+                                                                              ) [Expr_SingleTerm]
+                                                                            ) [Designator_element]
+                                                                          ) [FactorZamena_designator]
+                                                                        ) [Factor]
+                                                                      ) [Term_SingleFactor]
+                                                                    ) [Expr_SingleTerm]
+                                                                    AddOperator_plus(
+                                                                    ) [AddOperator_plus]
+                                                                    Term_ListOfFactors(
+                                                                      Term_SingleFactor(
+                                                                        Factor(
+                                                                          FactorMoguciMinus_nijeMinus(
+                                                                          ) [FactorMoguciMinus_nijeMinus]
+                                                                          FactorZamena_expr(
+                                                                            Expr_SingleTerm(
+                                                                              Term_SingleFactor(
+                                                                                Factor(
+                                                                                  FactorMoguciMinus_minus(
+                                                                                  ) [FactorMoguciMinus_minus]
+                                                                                  FactorZamena_const(
+                                                                                    FactorConst_broj(
+                                                                                     1
+                                                                                    ) [FactorConst_broj]
+                                                                                  ) [FactorZamena_const]
+                                                                                ) [Factor]
+                                                                              ) [Term_SingleFactor]
+                                                                            ) [Expr_SingleTerm]
+                                                                          ) [FactorZamena_expr]
+                                                                        ) [Factor]
+                                                                      ) [Term_SingleFactor]
+                                                                      MulOperator_puta(
+                                                                      ) [MulOperator_puta]
+                                                                      Factor(
+                                                                        FactorMoguciMinus_nijeMinus(
+                                                                        ) [FactorMoguciMinus_nijeMinus]
+                                                                        FactorZamena_const(
+                                                                          FactorConst_broj(
+                                                                           2
+                                                                          ) [FactorConst_broj]
+                                                                        ) [FactorZamena_const]
+                                                                      ) [Factor]
+                                                                    ) [Term_ListOfFactors]
+                                                                  ) [Expr_ListOfTerms]
+                                                                ) [Designator_element]
+                                                              ) [FactorZamena_designator]
+                                                            ) [Factor]
+                                                          ) [Term_SingleFactor]
+                                                        ) [Expr_SingleTerm]
+                                                      ) [FactorZamena_expr]
+                                                    ) [Factor]
+                                                  ) [Term_SingleFactor]
+                                                  MulOperator_puta(
+                                                  ) [MulOperator_puta]
+                                                  Factor(
+                                                    FactorMoguciMinus_nijeMinus(
+                                                    ) [FactorMoguciMinus_nijeMinus]
+                                                    FactorZamena_const(
+                                                      FactorConst_broj(
+                                                       2
+                                                      ) [FactorConst_broj]
+                                                    ) [FactorZamena_const]
+                                                  ) [Factor]
+                                                ) [Term_ListOfFactors]
+                                              ) [Expr_ListOfTerms]
+                                              AddOperator_minus(
+                                              ) [AddOperator_minus]
+                                              Term_SingleFactor(
+                                                Factor(
+                                                  FactorMoguciMinus_nijeMinus(
+                                                  ) [FactorMoguciMinus_nijeMinus]
+                                                  FactorZamena_designator(
+                                                    Designator_element(
+                                                      VariableNameZaNiz(
+                                                       arr
+                                                      ) [VariableNameZaNiz]
+                                                      Expr_ListOfTerms(
+                                                        Expr_ListOfTerms(
+                                                          Expr_ListOfTerms(
+                                                            Expr_SingleTerm(
+                                                              Term_SingleFactor(
+                                                                Factor(
+                                                                  FactorMoguciMinus_minus(
+                                                                  ) [FactorMoguciMinus_minus]
+                                                                  FactorZamena_designator(
+                                                                    Designator_element(
+                                                                      VariableNameZaNiz(
+                                                                       arr
+                                                                      ) [VariableNameZaNiz]
+                                                                      Expr_SingleTerm(
+                                                                        Term_SingleFactor(
+                                                                          Factor(
+                                                                            FactorMoguciMinus_nijeMinus(
+                                                                            ) [FactorMoguciMinus_nijeMinus]
+                                                                            FactorZamena_const(
+                                                                              FactorConst_broj(
+                                                                               2
+                                                                              ) [FactorConst_broj]
+                                                                            ) [FactorZamena_const]
+                                                                          ) [Factor]
+                                                                        ) [Term_SingleFactor]
+                                                                      ) [Expr_SingleTerm]
+                                                                    ) [Designator_element]
+                                                                  ) [FactorZamena_designator]
+                                                                ) [Factor]
+                                                              ) [Term_SingleFactor]
+                                                            ) [Expr_SingleTerm]
+                                                            AddOperator_plus(
+                                                            ) [AddOperator_plus]
+                                                            Term_ListOfFactors(
+                                                              Term_SingleFactor(
+                                                                Factor(
+                                                                  FactorMoguciMinus_nijeMinus(
+                                                                  ) [FactorMoguciMinus_nijeMinus]
+                                                                  FactorZamena_const(
+                                                                    FactorConst_broj(
+                                                                     1
+                                                                    ) [FactorConst_broj]
+                                                                  ) [FactorZamena_const]
+                                                                ) [Factor]
+                                                              ) [Term_SingleFactor]
+                                                              MulOperator_puta(
+                                                              ) [MulOperator_puta]
+                                                              Factor(
+                                                                FactorMoguciMinus_nijeMinus(
+                                                                ) [FactorMoguciMinus_nijeMinus]
+                                                                FactorZamena_const(
+                                                                  FactorConst_broj(
+                                                                   2
+                                                                  ) [FactorConst_broj]
+                                                                ) [FactorZamena_const]
+                                                              ) [Factor]
+                                                            ) [Term_ListOfFactors]
+                                                          ) [Expr_ListOfTerms]
+                                                          AddOperator_minus(
+                                                          ) [AddOperator_minus]
+                                                          Term_SingleFactor(
+                                                            Factor(
+                                                              FactorMoguciMinus_nijeMinus(
+                                                              ) [FactorMoguciMinus_nijeMinus]
+                                                              FactorZamena_const(
+                                                                FactorConst_broj(
+                                                                 3
+                                                                ) [FactorConst_broj]
+                                                              ) [FactorZamena_const]
+                                                            ) [Factor]
+                                                          ) [Term_SingleFactor]
+                                                        ) [Expr_ListOfTerms]
+                                                        AddOperator_plus(
+                                                        ) [AddOperator_plus]
+                                                        Term_SingleFactor(
+                                                          Factor(
+                                                            FactorMoguciMinus_nijeMinus(
+                                                            ) [FactorMoguciMinus_nijeMinus]
+                                                            FactorZamena_expr(
+                                                              Expr_ListOfTerms(
+                                                                Expr_ListOfTerms(
+                                                                  Expr_SingleTerm(
+                                                                    Term_ListOfFactors(
+                                                                      Term_SingleFactor(
+                                                                        Factor(
+                                                                          FactorMoguciMinus_nijeMinus(
+                                                                          ) [FactorMoguciMinus_nijeMinus]
+                                                                          FactorZamena_const(
+                                                                            FactorConst_broj(
+                                                                             5
+                                                                            ) [FactorConst_broj]
+                                                                          ) [FactorZamena_const]
+                                                                        ) [Factor]
+                                                                      ) [Term_SingleFactor]
+                                                                      MulOperator_puta(
+                                                                      ) [MulOperator_puta]
+                                                                      Factor(
+                                                                        FactorMoguciMinus_nijeMinus(
+                                                                        ) [FactorMoguciMinus_nijeMinus]
+                                                                        FactorZamena_designator(
+                                                                          Designator_element(
+                                                                            VariableNameZaNiz(
+                                                                             arr
+                                                                            ) [VariableNameZaNiz]
+                                                                            Expr_SingleTerm(
+                                                                              Term_SingleFactor(
+                                                                                Factor(
+                                                                                  FactorMoguciMinus_nijeMinus(
+                                                                                  ) [FactorMoguciMinus_nijeMinus]
+                                                                                  FactorZamena_const(
+                                                                                    FactorConst_broj(
+                                                                                     2
+                                                                                    ) [FactorConst_broj]
+                                                                                  ) [FactorZamena_const]
+                                                                                ) [Factor]
+                                                                              ) [Term_SingleFactor]
+                                                                            ) [Expr_SingleTerm]
+                                                                          ) [Designator_element]
+                                                                        ) [FactorZamena_designator]
+                                                                      ) [Factor]
+                                                                    ) [Term_ListOfFactors]
+                                                                  ) [Expr_SingleTerm]
+                                                                  AddOperator_minus(
+                                                                  ) [AddOperator_minus]
+                                                                  Term_SingleFactor(
+                                                                    Factor(
+                                                                      FactorMoguciMinus_nijeMinus(
+                                                                      ) [FactorMoguciMinus_nijeMinus]
+                                                                      FactorZamena_const(
+                                                                        FactorConst_broj(
+                                                                         1
+                                                                        ) [FactorConst_broj]
+                                                                      ) [FactorZamena_const]
+                                                                    ) [Factor]
+                                                                  ) [Term_SingleFactor]
+                                                                ) [Expr_ListOfTerms]
+                                                                AddOperator_minus(
+                                                                ) [AddOperator_minus]
+                                                                Term_ListOfFactors(
+                                                                  Term_SingleFactor(
+                                                                    Factor(
+                                                                      FactorMoguciMinus_nijeMinus(
+                                                                      ) [FactorMoguciMinus_nijeMinus]
+                                                                      FactorZamena_const(
+                                                                        FactorConst_broj(
+                                                                         1
+                                                                        ) [FactorConst_broj]
+                                                                      ) [FactorZamena_const]
+                                                                    ) [Factor]
+                                                                  ) [Term_SingleFactor]
+                                                                  MulOperator_puta(
+                                                                  ) [MulOperator_puta]
+                                                                  Factor(
+                                                                    FactorMoguciMinus_nijeMinus(
+                                                                    ) [FactorMoguciMinus_nijeMinus]
+                                                                    FactorZamena_const(
+                                                                      FactorConst_broj(
+                                                                       1
+                                                                      ) [FactorConst_broj]
+                                                                    ) [FactorZamena_const]
+                                                                  ) [Factor]
+                                                                ) [Term_ListOfFactors]
+                                                              ) [Expr_ListOfTerms]
+                                                            ) [FactorZamena_expr]
+                                                          ) [Factor]
+                                                        ) [Term_SingleFactor]
+                                                      ) [Expr_ListOfTerms]
+                                                    ) [Designator_element]
+                                                  ) [FactorZamena_designator]
+                                                ) [Factor]
+                                              ) [Term_SingleFactor]
+                                            ) [Expr_ListOfTerms]
+                                          ) [FactorZamena_expr]
+                                        ) [Factor]
+                                      ) [Term_SingleFactor]
+                                    ) [Expr_SingleTerm]
+                                    AddOperator_plus(
+                                    ) [AddOperator_plus]
+                                    Term_SingleFactor(
+                                      Factor(
+                                        FactorMoguciMinus_nijeMinus(
+                                        ) [FactorMoguciMinus_nijeMinus]
+                                        FactorZamena_designator(
+                                          Designator_element(
+                                            VariableNameZaNiz(
+                                             arr
+                                            ) [VariableNameZaNiz]
+                                            Expr_SingleTerm(
+                                              Term_SingleFactor(
+                                                Factor(
+                                                  FactorMoguciMinus_minus(
+                                                  ) [FactorMoguciMinus_minus]
+                                                  FactorZamena_designator(
+                                                    Designator_element(
+                                                      VariableNameZaNiz(
+                                                       arr
+                                                      ) [VariableNameZaNiz]
+                                                      Expr_SingleTerm(
+                                                        Term_SingleFactor(
+                                                          Factor(
+                                                            FactorMoguciMinus_minus(
+                                                            ) [FactorMoguciMinus_minus]
+                                                            FactorZamena_designator(
+                                                              Designator_onlyIdent(
+                                                               a
+                                                              ) [Designator_onlyIdent]
+                                                            ) [FactorZamena_designator]
+                                                          ) [Factor]
+                                                        ) [Term_SingleFactor]
+                                                      ) [Expr_SingleTerm]
+                                                    ) [Designator_element]
+                                                  ) [FactorZamena_designator]
+                                                ) [Factor]
+                                              ) [Term_SingleFactor]
+                                            ) [Expr_SingleTerm]
+                                          ) [Designator_element]
+                                        ) [FactorZamena_designator]
+                                      ) [Factor]
+                                    ) [Term_SingleFactor]
+                                  ) [Expr_ListOfTerms]
+                                ) [DesignatorStatement_dodela]
+                              ) [SingleStatement_designatorStatement]
+                            ) [Statement_singleNoLabel]
+                          ) [StatementVector_notEmpty]
+                          Statement_singleNoLabel(
+                            SingleStatement_printStatementWithoutZarez(
+                              Expr_SingleTerm(
+                                Term_SingleFactor(
+                                  Factor(
+                                    FactorMoguciMinus_nijeMinus(
+                                    ) [FactorMoguciMinus_nijeMinus]
+                                    FactorZamena_designator(
+                                      Designator_onlyIdent(
+                                       i
+                                      ) [Designator_onlyIdent]
+                                    ) [FactorZamena_designator]
+                                  ) [Factor]
+                                ) [Term_SingleFactor]
+                              ) [Expr_SingleTerm]
+                            ) [SingleStatement_printStatementWithoutZarez]
+                          ) [Statement_singleNoLabel]
+                        ) [StatementVector_notEmpty]
+                        Statement_singleNoLabel(
+                          SingleStatement_printStatementWithoutZarez(
+                            Expr_SingleTerm(
+                              Term_SingleFactor(
+                                Factor(
+                                  FactorMoguciMinus_nijeMinus(
+                                  ) [FactorMoguciMinus_nijeMinus]
+                                  FactorZamena_designator(
+                                    Designator_onlyIdent(
+                                     eol
+                                    ) [Designator_onlyIdent]
+                                  ) [FactorZamena_designator]
+                                ) [Factor]
+                              ) [Term_SingleFactor]
+                            ) [Expr_SingleTerm]
+                          ) [SingleStatement_printStatementWithoutZarez]
+                        ) [Statement_singleNoLabel]
+                      ) [StatementVector_notEmpty]
+                      Statement_singleNoLabel(
+                        SingleStatement_designatorStatement(
+                          DesignatorStatement_dodela(
+                            Designator_onlyIdent(
+                             i
+                            ) [Designator_onlyIdent]
+                            AssignOperator(
+                            ) [AssignOperator]
+                            Expr_SingleTerm(
+                              Term_SingleFactor(
+                                Factor(
+                                  FactorMoguciMinus_minus(
+                                  ) [FactorMoguciMinus_minus]
+                                  FactorZamena_expr(
+                                    Expr_ListOfTerms(
+                                      Expr_ListOfTerms(
+                                        Expr_ListOfTerms(
+                                          Expr_SingleTerm(
+                                            Term_SingleFactor(
+                                              Factor(
+                                                FactorMoguciMinus_nijeMinus(
+                                                ) [FactorMoguciMinus_nijeMinus]
+                                                FactorZamena_const(
+                                                  FactorConst_broj(
+                                                   3
+                                                  ) [FactorConst_broj]
+                                                ) [FactorZamena_const]
+                                              ) [Factor]
+                                            ) [Term_SingleFactor]
+                                          ) [Expr_SingleTerm]
+                                          AddOperator_plus(
+                                          ) [AddOperator_plus]
+                                          Term_SingleFactor(
+                                            Factor(
+                                              FactorMoguciMinus_nijeMinus(
+                                              ) [FactorMoguciMinus_nijeMinus]
+                                              FactorZamena_const(
+                                                FactorConst_broj(
+                                                 2
+                                                ) [FactorConst_broj]
+                                              ) [FactorZamena_const]
+                                            ) [Factor]
+                                          ) [Term_SingleFactor]
+                                        ) [Expr_ListOfTerms]
+                                        AddOperator_minus(
+                                        ) [AddOperator_minus]
+                                        Term_SingleFactor(
+                                          Factor(
+                                            FactorMoguciMinus_nijeMinus(
+                                            ) [FactorMoguciMinus_nijeMinus]
+                                            FactorZamena_expr(
+                                              Expr_SingleTerm(
+                                                Term_SingleFactor(
+                                                  Factor(
+                                                    FactorMoguciMinus_minus(
+                                                    ) [FactorMoguciMinus_minus]
+                                                    FactorZamena_const(
+                                                      FactorConst_broj(
+                                                       2
+                                                      ) [FactorConst_broj]
+                                                    ) [FactorZamena_const]
+                                                  ) [Factor]
+                                                ) [Term_SingleFactor]
+                                              ) [Expr_SingleTerm]
+                                            ) [FactorZamena_expr]
+                                          ) [Factor]
+                                        ) [Term_SingleFactor]
+                                      ) [Expr_ListOfTerms]
+                                      AddOperator_plus(
+                                      ) [AddOperator_plus]
+                                      Term_SingleFactor(
+                                        Factor(
+                                          FactorMoguciMinus_nijeMinus(
+                                          ) [FactorMoguciMinus_nijeMinus]
+                                          FactorZamena_expr(
+                                            Expr_ListOfTerms(
+                                              Expr_SingleTerm(
+                                                Term_SingleFactor(
+                                                  Factor(
+                                                    FactorMoguciMinus_minus(
+                                                    ) [FactorMoguciMinus_minus]
+                                                    FactorZamena_const(
+                                                      FactorConst_broj(
+                                                       2
+                                                      ) [FactorConst_broj]
+                                                    ) [FactorZamena_const]
+                                                  ) [Factor]
+                                                ) [Term_SingleFactor]
+                                              ) [Expr_SingleTerm]
+                                              AddOperator_plus(
+                                              ) [AddOperator_plus]
+                                              Term_SingleFactor(
+                                                Factor(
+                                                  FactorMoguciMinus_nijeMinus(
+                                                  ) [FactorMoguciMinus_nijeMinus]
+                                                  FactorZamena_const(
+                                                    FactorConst_broj(
+                                                     3
+                                                    ) [FactorConst_broj]
+                                                  ) [FactorZamena_const]
+                                                ) [Factor]
+                                              ) [Term_SingleFactor]
+                                            ) [Expr_ListOfTerms]
+                                          ) [FactorZamena_expr]
+                                        ) [Factor]
+                                      ) [Term_SingleFactor]
+                                    ) [Expr_ListOfTerms]
+                                  ) [FactorZamena_expr]
+                                ) [Factor]
+                              ) [Term_SingleFactor]
+                            ) [Expr_SingleTerm]
+                          ) [DesignatorStatement_dodela]
+                        ) [SingleStatement_designatorStatement]
+                      ) [Statement_singleNoLabel]
+                    ) [StatementVector_notEmpty]
+                    Statement_singleNoLabel(
+                      SingleStatement_printStatementWithoutZarez(
+                        Expr_SingleTerm(
+                          Term_SingleFactor(
+                            Factor(
+                              FactorMoguciMinus_nijeMinus(
+                              ) [FactorMoguciMinus_nijeMinus]
+                              FactorZamena_designator(
+                                Designator_onlyIdent(
+                                 i
+                                ) [Designator_onlyIdent]
+                              ) [FactorZamena_designator]
+                            ) [Factor]
+                          ) [Term_SingleFactor]
+                        ) [Expr_SingleTerm]
+                      ) [SingleStatement_printStatementWithoutZarez]
+                    ) [Statement_singleNoLabel]
+                  ) [StatementVector_notEmpty]
+                  Statement_singleNoLabel(
+                    SingleStatement_printStatementWithoutZarez(
+                      Expr_SingleTerm(
+                        Term_SingleFactor(
+                          Factor(
+                            FactorMoguciMinus_nijeMinus(
+                            ) [FactorMoguciMinus_nijeMinus]
+                            FactorZamena_designator(
+                              Designator_onlyIdent(
+                               eol
+                              ) [Designator_onlyIdent]
+                            ) [FactorZamena_designator]
+                          ) [Factor]
+                        ) [Term_SingleFactor]
+                      ) [Expr_SingleTerm]
+                    ) [SingleStatement_printStatementWithoutZarez]
+                  ) [Statement_singleNoLabel]
+                ) [StatementVector_notEmpty]
+                Statement_singleNoLabel(
+                  SingleStatement_designatorStatement(
+                    DesignatorStatement_dodela(
+                      Designator_onlyIdent(
+                       i
+                      ) [Designator_onlyIdent]
+                      AssignOperator(
+                      ) [AssignOperator]
+                      Expr_SingleTerm(
+                        Term_SingleFactor(
+                          Factor(
+                            FactorMoguciMinus_minus(
+                            ) [FactorMoguciMinus_minus]
+                            FactorZamena_expr(
+                              Expr_ListOfTerms(
+                                Expr_ListOfTerms(
+                                  Expr_SingleTerm(
+                                    Term_SingleFactor(
+                                      Factor(
+                                        FactorMoguciMinus_minus(
+                                        ) [FactorMoguciMinus_minus]
+                                        FactorZamena_expr(
+                                          Expr_SingleTerm(
+                                            Term_SingleFactor(
+                                              Factor(
+                                                FactorMoguciMinus_minus(
+                                                ) [FactorMoguciMinus_minus]
+                                                FactorZamena_const(
+                                                  FactorConst_broj(
+                                                   1
+                                                  ) [FactorConst_broj]
+                                                ) [FactorZamena_const]
+                                              ) [Factor]
+                                            ) [Term_SingleFactor]
+                                          ) [Expr_SingleTerm]
+                                        ) [FactorZamena_expr]
+                                      ) [Factor]
+                                    ) [Term_SingleFactor]
+                                  ) [Expr_SingleTerm]
+                                  AddOperator_minus(
+                                  ) [AddOperator_minus]
+                                  Term_SingleFactor(
+                                    Factor(
+                                      FactorMoguciMinus_nijeMinus(
+                                      ) [FactorMoguciMinus_nijeMinus]
+                                      FactorZamena_expr(
+                                        Expr_SingleTerm(
+                                          Term_SingleFactor(
+                                            Factor(
+                                              FactorMoguciMinus_minus(
+                                              ) [FactorMoguciMinus_minus]
+                                              FactorZamena_const(
+                                                FactorConst_broj(
+                                                 2
+                                                ) [FactorConst_broj]
+                                              ) [FactorZamena_const]
+                                            ) [Factor]
+                                          ) [Term_SingleFactor]
+                                        ) [Expr_SingleTerm]
+                                      ) [FactorZamena_expr]
+                                    ) [Factor]
+                                  ) [Term_SingleFactor]
+                                ) [Expr_ListOfTerms]
+                                AddOperator_plus(
+                                ) [AddOperator_plus]
+                                Term_SingleFactor(
+                                  Factor(
+                                    FactorMoguciMinus_nijeMinus(
+                                    ) [FactorMoguciMinus_nijeMinus]
+                                    FactorZamena_const(
+                                      FactorConst_broj(
+                                       1
+                                      ) [FactorConst_broj]
+                                    ) [FactorZamena_const]
+                                  ) [Factor]
+                                ) [Term_SingleFactor]
+                              ) [Expr_ListOfTerms]
+                            ) [FactorZamena_expr]
+                          ) [Factor]
+                        ) [Term_SingleFactor]
+                      ) [Expr_SingleTerm]
+                    ) [DesignatorStatement_dodela]
+                  ) [SingleStatement_designatorStatement]
+                ) [Statement_singleNoLabel]
+              ) [StatementVector_notEmpty]
+              Statement_singleNoLabel(
+                SingleStatement_printStatementWithoutZarez(
+                  Expr_SingleTerm(
+                    Term_SingleFactor(
+                      Factor(
+                        FactorMoguciMinus_nijeMinus(
+                        ) [FactorMoguciMinus_nijeMinus]
+                        FactorZamena_designator(
+                          Designator_onlyIdent(
+                           i
+                          ) [Designator_onlyIdent]
+                        ) [FactorZamena_designator]
+                      ) [Factor]
+                    ) [Term_SingleFactor]
+                  ) [Expr_SingleTerm]
+                ) [SingleStatement_printStatementWithoutZarez]
+              ) [Statement_singleNoLabel]
+            ) [StatementVector_notEmpty]
+            Statement_singleNoLabel(
+              SingleStatement_printStatementWithoutZarez(
+                Expr_SingleTerm(
+                  Term_SingleFactor(
+                    Factor(
+                      FactorMoguciMinus_nijeMinus(
+                      ) [FactorMoguciMinus_nijeMinus]
+                      FactorZamena_designator(
+                        Designator_onlyIdent(
+                         eol
+                        ) [Designator_onlyIdent]
+                      ) [FactorZamena_designator]
+                    ) [Factor]
+                  ) [Term_SingleFactor]
+                ) [Expr_SingleTerm]
+              ) [SingleStatement_printStatementWithoutZarez]
+            ) [Statement_singleNoLabel]
+          ) [StatementVector_notEmpty]
+          Statement_singleNoLabel(
+            SingleStatement_printStatementWithoutZarez(
+              Expr_SingleTerm(
+                Term_SingleFactor(
+                  Factor(
+                    FactorMoguciMinus_nijeMinus(
+                    ) [FactorMoguciMinus_nijeMinus]
+                    FactorZamena_const(
+                      FactorConst_char(
+                       e
+                      ) [FactorConst_char]
+                    ) [FactorZamena_const]
+                  ) [Factor]
+                ) [Term_SingleFactor]
+              ) [Expr_SingleTerm]
+            ) [SingleStatement_printStatementWithoutZarez]
+          ) [Statement_singleNoLabel]
+        ) [StatementVector_notEmpty]
+        Statement_singleNoLabel(
+          SingleStatement_printStatementWithoutZarez(
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_const(
+                    FactorConst_char(
+                     n
+                    ) [FactorConst_char]
+                  ) [FactorZamena_const]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [SingleStatement_printStatementWithoutZarez]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          Expr_SingleTerm(
+            Term_SingleFactor(
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_const(
+                  FactorConst_char(
+                   d
+                  ) [FactorConst_char]
+                ) [FactorZamena_const]
+              ) [Factor]
+            ) [Term_SingleFactor]
+          ) [Expr_SingleTerm]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  13:00:51,068 - =====================================================================
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: a [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 8
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 1, level: 1, fpos: 0]  na liniji 9
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: c [Kind: 1, adr: 2, level: 1, fpos: 0]  na liniji 10
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 12
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: a [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 12
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 1, level: 1, fpos: 0]  na liniji 12
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: c [Kind: 1, adr: 2, level: 1, fpos: 0]  na liniji 12
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 14
+INFO  13:00:51,073 - Pristupa se globalnoj promenljivi: eol [Kind: 0, adr: 10, level: 0, fpos: 0]  na liniji 15
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: a [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 19
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 1, level: 1, fpos: 0]  na liniji 20
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: c [Kind: 1, adr: 2, level: 1, fpos: 0]  na liniji 21
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 23
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: arr [Kind: 1, adr: 4, level: 1, fpos: 0]  na liniji 25
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 27
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 28
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 29
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: a [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupilo se elementu niza: arr [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 31
+INFO  13:00:51,073 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 34
+INFO  13:00:51,074 - Pristupa se globalnoj promenljivi: eol [Kind: 0, adr: 10, level: 0, fpos: 0]  na liniji 35
+INFO  13:00:51,074 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 39
+INFO  13:00:51,074 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 41
+INFO  13:00:51,074 - Pristupa se globalnoj promenljivi: eol [Kind: 0, adr: 10, level: 0, fpos: 0]  na liniji 42
+INFO  13:00:51,074 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 46
+INFO  13:00:51,074 - Pristupa se lokalnoj promenljivi: i [Kind: 1, adr: 3, level: 1, fpos: 0]  na liniji 48
+INFO  13:00:51,074 - Pristupa se globalnoj promenljivi: eol [Kind: 0, adr: 10, level: 0, fpos: 0]  na liniji 49
+INFO  13:00:51,074 - Lokalnih promenljivih: 5
+INFO  13:00:51,074 - ---------------------------------------------------------------------
+INFO  13:00:51,074 - =====================================================================
+INFO  13:00:51,081 - Parsiranje i generisanje uspesno zavrseno!

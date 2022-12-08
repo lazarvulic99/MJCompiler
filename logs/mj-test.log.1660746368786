@@ -1,0 +1,224 @@
+INFO  16:25:50,434 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  16:25:50,451 - #2 program
+INFO  16:25:50,451 - #29 test1
+INFO  16:25:50,451 - #9 const
+INFO  16:25:50,451 - #29 int
+INFO  16:25:50,451 - #29 nula
+INFO  16:25:50,452 - #13 =
+INFO  16:25:50,452 - #30 0
+INFO  16:25:50,452 - #10 ,
+INFO  16:25:50,452 - #29 jedan
+INFO  16:25:50,452 - #13 =
+INFO  16:25:50,452 - #30 1
+INFO  16:25:50,452 - #11 ;
+INFO  16:25:50,452 - #29 char
+INFO  16:25:50,453 - #29 m
+INFO  16:25:50,453 - #10 ,
+INFO  16:25:50,454 - #29 r
+INFO  16:25:50,454 - #7 [
+INFO  16:25:50,454 - #8 ]
+INFO  16:25:50,454 - #11 ;
+INFO  16:25:50,454 - #29 int
+INFO  16:25:50,454 - #29 prom
+INFO  16:25:50,455 - #10 ,
+INFO  16:25:50,467 - #29 nova
+INFO  16:25:50,467 - #11 ;
+INFO  16:25:50,467 - #9 const
+INFO  16:25:50,467 - #29 bool
+INFO  16:25:50,467 - #29 istina
+INFO  16:25:50,467 - #13 =
+INFO  16:25:50,467 - #31 1
+INFO  16:25:50,467 - #11 ;
+INFO  16:25:50,467 - #3 {
+INFO  16:25:50,467 - #17 void
+INFO  16:25:50,467 - #29 main
+INFO  16:25:50,467 - #5 (
+INFO  16:25:50,468 - #6 )
+INFO  16:25:50,468 - #29 int
+INFO  16:25:50,468 - #29 lazar
+INFO  16:25:50,468 - #10 ,
+INFO  16:25:50,468 - #29 proba
+INFO  16:25:50,468 - #7 [
+INFO  16:25:50,468 - #8 ]
+INFO  16:25:50,468 - #11 ;
+INFO  16:25:50,468 - #3 {
+INFO  16:25:50,468 - #29 nula
+INFO  16:25:50,469 - #13 =
+INFO  16:25:50,469 - #30 4
+INFO  16:25:50,469 - #11 ;
+INFO  16:25:50,470 - #4 }
+INFO  16:25:50,471 - #4 }
+INFO  16:25:50,472 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_variable(
+      ProgDeclList_variable(
+        ProgDeclList_const(
+          ProgDeclList_empty(
+          ) [ProgDeclList_empty]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclOptions_multiple(
+              ConstComma_ok(
+                ConstantDecl(
+                 nula
+                  Konstanta_broj(
+                   0
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstComma_ok]
+              ConstDeclOptions_single(
+                ConstSingle_ok(
+                  ConstantDecl(
+                   jedan
+                    Konstanta_broj(
+                     1
+                    ) [Konstanta_broj]
+                  ) [ConstantDecl]
+                ) [ConstSingle_ok]
+              ) [ConstDeclOptions_single]
+            ) [ConstDeclOptions_multiple]
+          ) [ConstDeclList]
+        ) [ProgDeclList_const]
+        VariableDeclList(
+          Type(
+           char
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               m
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_single(
+              VariableSingle_ok(
+                VariableDecl(
+                 r
+                  VariableOpcioneZagrade_uglasteZagrade(
+                  ) [VariableOpcioneZagrade_uglasteZagrade]
+                ) [VariableDecl]
+              ) [VariableSingle_ok]
+            ) [VariableDeclOptions_single]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [ProgDeclList_variable]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             prom
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               nova
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclOptions_single(
+        ConstSingle_ok(
+          ConstantDecl(
+           istina
+            Konstanta_boolean(
+             1
+            ) [Konstanta_boolean]
+          ) [ConstantDecl]
+        ) [ConstSingle_ok]
+      ) [ConstDeclOptions_single]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             lazar
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               proba
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_onlyIdent(
+             nula
+            ) [Designator_onlyIdent]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr(
+              Expr_januar(
+                Expr_SingleTerm(
+                  Term(
+                    Term_SingleFactor(
+                      Factor(
+                        FactorMoguciMinus_nijeMinus(
+                        ) [FactorMoguciMinus_nijeMinus]
+                        FactorZamena_const(
+                          FactorConst_broj(
+                           4
+                          ) [FactorConst_broj]
+                        ) [FactorZamena_const]
+                      ) [Factor]
+                    ) [Term_SingleFactor]
+                  ) [Term]
+                ) [Expr_SingleTerm]
+              ) [Expr_januar]
+            ) [Expr]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  16:25:50,472 - =====================================================================
+INFO  16:25:50,476 - Pristupa se globalnoj promenljivi: nula [Kind: 0, adr: 0, level: 0, fpos: 0]  na liniji 10
+ERROR 16:25:50,477 - GRESKA(DesignatorStatement_dodela)!Promenljiva: nula, mora da bude promenljiva ili element niza. na liniji 10
+INFO  16:25:50,477 - Lokalnih promenljivih: 2
+INFO  16:25:50,477 - ---------------------------------------------------------------------
+INFO  16:25:50,477 - =====================================================================
+ERROR 16:25:50,477 - Parsiranje i generisanje NIJE uspesno zavrseno!

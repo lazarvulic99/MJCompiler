@@ -1,0 +1,182 @@
+INFO  00:50:21,773 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  00:50:21,789 - #2 program
+INFO  00:50:21,789 - #29 test301
+INFO  00:50:21,789 - #29 int
+INFO  00:50:21,789 - #29 x
+INFO  00:50:21,790 - #6 ;
+INFO  00:50:21,791 - #3 {
+INFO  00:50:21,791 - #16 void
+INFO  00:50:21,791 - #29 main
+INFO  00:50:21,791 - #14 (
+INFO  00:50:21,791 - #15 )
+INFO  00:50:21,791 - #29 int
+INFO  00:50:21,792 - #29 bodovi
+INFO  00:50:21,792 - #6 ;
+INFO  00:50:21,792 - #3 {
+INFO  00:50:21,792 - #29 bodovi
+INFO  00:50:21,792 - #7 =
+INFO  00:50:21,792 - #30 5
+INFO  00:50:21,793 - #6 ;
+INFO  00:50:21,793 - #29 bodovi
+INFO  00:50:21,794 - #7 =
+INFO  00:50:21,794 - #29 bodovi
+INFO  00:50:21,794 - #28 ??
+INFO  00:50:21,805 - #30 2
+INFO  00:50:21,805 - #6 ;
+INFO  00:50:21,805 - #20 print
+INFO  00:50:21,805 - #14 (
+INFO  00:50:21,805 - #29 bodovi
+INFO  00:50:21,805 - #15 )
+INFO  00:50:21,805 - #6 ;
+INFO  00:50:21,805 - #4 }
+INFO  00:50:21,805 - #4 }
+INFO  00:50:21,807 - Program(
+  ProgramIdent(
+   test301
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           x
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             bodovi
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_notEmpty(
+          StatementVector_empty(
+          ) [StatementVector_empty]
+          Statement_singleNoLabel(
+            SingleStatement_designatorStatement(
+              DesignatorStatement_dodela(
+                Designator_onlyIdent(
+                 bodovi
+                ) [Designator_onlyIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                ExprAvgust_stari(
+                  Expr_SingleTerm(
+                    Term_SingleFactor(
+                      Factor(
+                        FactorMoguciMinus_nijeMinus(
+                        ) [FactorMoguciMinus_nijeMinus]
+                        FactorZamena_const(
+                          FactorConst_broj(
+                           5
+                          ) [FactorConst_broj]
+                        ) [FactorZamena_const]
+                      ) [Factor]
+                    ) [Term_SingleFactor]
+                  ) [Expr_SingleTerm]
+                ) [ExprAvgust_stari]
+              ) [DesignatorStatement_dodela]
+            ) [SingleStatement_designatorStatement]
+          ) [Statement_singleNoLabel]
+        ) [StatementVector_notEmpty]
+        Statement_singleNoLabel(
+          SingleStatement_designatorStatement(
+            DesignatorStatement_dodela(
+              Designator_onlyIdent(
+               bodovi
+              ) [Designator_onlyIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              ExprAvgust_novi(
+                ExprAvgust_stari(
+                  Expr_SingleTerm(
+                    Term_SingleFactor(
+                      Factor(
+                        FactorMoguciMinus_nijeMinus(
+                        ) [FactorMoguciMinus_nijeMinus]
+                        FactorZamena_designator(
+                          Designator_onlyIdent(
+                           bodovi
+                          ) [Designator_onlyIdent]
+                        ) [FactorZamena_designator]
+                      ) [Factor]
+                    ) [Term_SingleFactor]
+                  ) [Expr_SingleTerm]
+                ) [ExprAvgust_stari]
+                ExprAvg_SingleTerm(
+                  Term_SingleFactor(
+                    Factor(
+                      FactorMoguciMinus_nijeMinus(
+                      ) [FactorMoguciMinus_nijeMinus]
+                      FactorZamena_const(
+                        FactorConst_broj(
+                         2
+                        ) [FactorConst_broj]
+                      ) [FactorZamena_const]
+                    ) [Factor]
+                  ) [Term_SingleFactor]
+                ) [ExprAvg_SingleTerm]
+              ) [ExprAvgust_novi]
+            ) [DesignatorStatement_dodela]
+          ) [SingleStatement_designatorStatement]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          ExprAvgust_stari(
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_designator(
+                    Designator_onlyIdent(
+                     bodovi
+                    ) [Designator_onlyIdent]
+                  ) [FactorZamena_designator]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [ExprAvgust_stari]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  00:50:21,807 - =====================================================================
+INFO  00:50:21,811 - Pristupa se lokalnoj promenljivi: bodovi [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 11
+INFO  00:50:21,811 - Pristupa se lokalnoj promenljivi: bodovi [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 12
+INFO  00:50:21,811 - Pristupa se lokalnoj promenljivi: bodovi [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 12
+INFO  00:50:21,811 - Obilazak novog cvora na liniji 10
+INFO  00:50:21,811 - Pristupa se lokalnoj promenljivi: bodovi [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 13
+INFO  00:50:21,811 - Lokalnih promenljivih: 1
+INFO  00:50:21,811 - ---------------------------------------------------------------------
+INFO  00:50:21,812 - =====================================================================
+INFO  00:50:21,818 - Parsiranje i generisanje uspesno zavrseno!

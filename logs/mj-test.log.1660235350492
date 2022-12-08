@@ -1,0 +1,138 @@
+INFO  18:18:12,537 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  18:18:12,635 - #2 program
+INFO  18:18:12,635 - #28 Lazar
+INFO  18:18:12,635 - #5 const
+INFO  18:18:12,638 - #28 int
+INFO  18:18:12,638 - #28 a
+INFO  18:18:12,639 - #7 =
+INFO  18:18:12,639 - #29 1
+INFO  18:18:12,639 - #6 ;
+INFO  18:18:12,642 - #28 int
+INFO  18:18:12,644 - #28 x
+INFO  18:18:12,644 - #8 ,
+INFO  18:18:12,648 - #28 niz
+INFO  18:18:12,648 - #9 [
+INFO  18:18:12,648 - #10 ]
+INFO  18:18:12,648 - #6 ;
+INFO  18:18:12,651 - #3 {
+INFO  18:18:12,655 - #16 void
+INFO  18:18:12,655 - #28 main
+INFO  18:18:12,655 - #14 (
+INFO  18:18:12,660 - #15 )
+INFO  18:18:12,661 - #28 int
+INFO  18:18:12,663 - #28 b
+INFO  18:18:12,675 - #6 ;
+INFO  18:18:12,675 - #3 {
+INFO  18:18:12,676 - #28 b
+INFO  18:18:12,679 - #7 =
+INFO  18:18:12,680 - #28 a
+INFO  18:18:12,687 - #6 ;
+INFO  18:18:12,688 - #4 }
+INFO  18:18:12,688 - #4 }
+INFO  18:18:12,694 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_broj(
+               1
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           x
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             b
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_designator(
+                    Designator_onlyIdent(
+                     a
+                    ) [Designator_onlyIdent]
+                  ) [FactorZamena_designator]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:18:12,694 - =====================================================================
+INFO  18:18:12,699 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 10
+INFO  18:18:12,700 - Pristupa se globalnoj promenljivi: a [Kind: 0, adr: 1, level: 0, fpos: 0]  na liniji 10
+INFO  18:18:12,701 - Lokalnih promenljivih: 1
+INFO  18:18:12,701 - ---------------------------------------------------------------------
+INFO  18:18:12,702 - =====================================================================
+INFO  18:18:12,709 - Parsiranje i generisanje uspesno zavrseno!

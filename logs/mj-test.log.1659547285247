@@ -1,0 +1,131 @@
+INFO  19:20:19,613 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  19:20:19,627 - #2 program
+INFO  19:20:19,627 - #28 test1
+INFO  19:20:19,627 - #5 const
+INFO  19:20:19,627 - #28 int
+INFO  19:20:19,627 - #28 nula
+INFO  19:20:19,628 - #7 =
+INFO  19:20:19,628 - #31 a
+INFO  19:20:19,628 - #8 ,
+INFO  19:20:19,628 - #28 jedan
+INFO  19:20:19,628 - #7 =
+INFO  19:20:19,628 - #29 1
+INFO  19:20:19,628 - #6 ;
+INFO  19:20:19,628 - #5 const
+INFO  19:20:19,629 - #28 char
+INFO  19:20:19,629 - #28 a
+INFO  19:20:19,629 - #7 =
+INFO  19:20:19,629 - #31 a
+INFO  19:20:19,629 - #6 ;
+INFO  19:20:19,629 - #5 const
+INFO  19:20:19,629 - #28 bool
+INFO  19:20:19,629 - #28 tacno
+INFO  19:20:19,629 - #7 =
+INFO  19:20:19,629 - #30 1
+INFO  19:20:19,630 - #8 ,
+INFO  19:20:19,630 - #28 netacno
+INFO  19:20:19,630 - #7 =
+INFO  19:20:19,630 - #30 0
+INFO  19:20:19,630 - #6 ;
+INFO  19:20:19,630 - #3 {
+INFO  19:20:19,630 - #16 void
+INFO  19:20:19,630 - #28 main
+INFO  19:20:19,630 - #14 (
+INFO  19:20:19,630 - #15 )
+INFO  19:20:19,630 - #3 {
+INFO  19:20:19,631 - #4 }
+INFO  19:20:19,631 - #4 }
+INFO  19:20:19,632 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_const(
+      ProgDeclList_const(
+        ProgDeclList_empty(
+        ) [ProgDeclList_empty]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclOptions_multiple(
+            ConstComma_ok(
+              ConstantDecl(
+               nula
+                Konstanta_char(
+                 a
+                ) [Konstanta_char]
+              ) [ConstantDecl]
+            ) [ConstComma_ok]
+            ConstDeclOptions_single(
+              ConstSingle_ok(
+                ConstantDecl(
+                 jedan
+                  Konstanta_broj(
+                   1
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstSingle_ok]
+            ) [ConstDeclOptions_single]
+          ) [ConstDeclOptions_multiple]
+        ) [ConstDeclList]
+      ) [ProgDeclList_const]
+      ConstDeclList(
+        Type(
+         char
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_char(
+               a
+              ) [Konstanta_char]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           tacno
+            Konstanta_boolean(
+             1
+            ) [Konstanta_boolean]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             netacno
+              Konstanta_boolean(
+               0
+              ) [Konstanta_boolean]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:20:19,632 - =====================================================================
+ERROR 19:20:19,634 - Greska! Tip konstante i tip dodeljene vrednosti nisu assignable! na liniji 4
+INFO  19:20:19,634 - ---------------------------------------------------------------------
+INFO  19:20:19,635 - =====================================================================
+ERROR 19:20:19,635 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,190 @@
+INFO  22:09:59,723 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  22:09:59,738 - #2 program
+INFO  22:09:59,738 - #28 Lazar
+INFO  22:09:59,738 - #5 const
+INFO  22:09:59,739 - #28 int
+INFO  22:09:59,739 - #28 a
+INFO  22:09:59,739 - #7 =
+INFO  22:09:59,739 - #29 1
+INFO  22:09:59,739 - #6 ;
+INFO  22:09:59,740 - #28 int
+INFO  22:09:59,740 - #28 x
+INFO  22:09:59,740 - #8 ,
+INFO  22:09:59,741 - #28 niz
+INFO  22:09:59,741 - #9 [
+INFO  22:09:59,741 - #10 ]
+INFO  22:09:59,741 - #6 ;
+INFO  22:09:59,742 - #3 {
+INFO  22:09:59,742 - #16 void
+INFO  22:09:59,742 - #28 main
+INFO  22:09:59,742 - #14 (
+INFO  22:09:59,742 - #15 )
+INFO  22:09:59,743 - #28 int
+INFO  22:09:59,743 - #28 b
+INFO  22:09:59,743 - #8 ,
+INFO  22:09:59,743 - #28 c
+INFO  22:09:59,743 - #8 ,
+INFO  22:09:59,743 - #28 d
+INFO  22:09:59,743 - #9 [
+INFO  22:09:59,743 - #10 ]
+INFO  22:09:59,743 - #6 ;
+INFO  22:09:59,743 - #28 int
+INFO  22:09:59,743 - #28 niz1
+INFO  22:09:59,743 - #9 [
+INFO  22:09:59,743 - #10 ]
+INFO  22:09:59,743 - #6 ;
+INFO  22:09:59,743 - #3 {
+INFO  22:09:59,744 - #19 read
+INFO  22:09:59,744 - #14 (
+INFO  22:09:59,744 - #28 b
+INFO  22:09:59,744 - #15 )
+INFO  22:09:59,744 - #6 ;
+INFO  22:09:59,744 - #20 print
+INFO  22:09:59,744 - #14 (
+INFO  22:09:59,744 - #28 b
+INFO  22:09:59,745 - #15 )
+INFO  22:09:59,745 - #6 ;
+INFO  22:09:59,745 - #4 }
+INFO  22:09:59,745 - #4 }
+INFO  22:09:59,746 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_broj(
+               1
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           x
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_notEmpty(
+        VarDeclVectorForMethod_empty(
+        ) [VarDeclVectorForMethod_empty]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               b
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_multiple(
+              VariableComma_ok(
+                VariableDecl(
+                 c
+                  VariableOpcioneZagrade_bezZagrada(
+                  ) [VariableOpcioneZagrade_bezZagrada]
+                ) [VariableDecl]
+              ) [VariableComma_ok]
+              VariableDeclOptions_single(
+                VariableSingle_ok(
+                  VariableDecl(
+                   d
+                    VariableOpcioneZagrade_uglasteZagrade(
+                    ) [VariableOpcioneZagrade_uglasteZagrade]
+                  ) [VariableDecl]
+                ) [VariableSingle_ok]
+              ) [VariableDeclOptions_single]
+            ) [VariableDeclOptions_multiple]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [VarDeclVectorForMethod_notEmpty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz1
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_empty(
+        ) [StatementVector_empty]
+        Statement_singleNoLabel(
+          SingleStatement_readStatement(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+          ) [SingleStatement_readStatement]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          Expr_SingleTerm(
+            Term_SingleFactor(
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_designator(
+                  Designator_onlyIdent(
+                   b
+                  ) [Designator_onlyIdent]
+                ) [FactorZamena_designator]
+              ) [Factor]
+            ) [Term_SingleFactor]
+          ) [Expr_SingleTerm]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  22:09:59,747 - =====================================================================
+INFO  22:09:59,750 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 16
+INFO  22:09:59,750 - Pristupa se lokalnoj promenljivi: b [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 17
+INFO  22:09:59,751 - ---------------------------------------------------------------------
+INFO  22:09:59,751 - =====================================================================
+INFO  22:09:59,753 - Parsiranje i generisanje uspesno zavrseno!

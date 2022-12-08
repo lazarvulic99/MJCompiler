@@ -1,0 +1,134 @@
+INFO  00:31:06,071 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  00:31:06,085 - #2 program
+INFO  00:31:06,085 - #28 test1
+INFO  00:31:06,085 - #5 const
+INFO  00:31:06,085 - #28 int
+INFO  00:31:06,085 - #28 nula
+INFO  00:31:06,086 - #7 =
+INFO  00:31:06,086 - #29 0
+INFO  00:31:06,086 - #8 ,
+INFO  00:31:06,086 - #28 jedan
+INFO  00:31:06,086 - #7 =
+INFO  00:31:06,086 - #29 1
+INFO  00:31:06,086 - #6 ;
+INFO  00:31:06,086 - #28 char
+INFO  00:31:06,087 - #28 m
+INFO  00:31:06,087 - #8 ,
+INFO  00:31:06,088 - #28 r
+INFO  00:31:06,088 - #9 [
+INFO  00:31:06,088 - #10 ]
+INFO  00:31:06,088 - #6 ;
+INFO  00:31:06,088 - #3 {
+INFO  00:31:06,089 - #16 void
+INFO  00:31:06,089 - #28 MAIn
+INFO  00:31:06,089 - #14 (
+INFO  00:31:06,089 - #15 )
+INFO  00:31:06,089 - #28 int
+INFO  00:31:06,090 - #28 lazar
+INFO  00:31:06,090 - #8 ,
+INFO  00:31:06,090 - #28 proba
+INFO  00:31:06,090 - #9 [
+INFO  00:31:06,090 - #10 ]
+INFO  00:31:06,090 - #6 ;
+INFO  00:31:06,090 - #3 {
+INFO  00:31:06,090 - #4 }
+INFO  00:31:06,090 - #4 }
+INFO  00:31:06,091 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_multiple(
+          ConstComma_ok(
+            ConstantDecl(
+             nula
+              Konstanta_broj(
+               0
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstComma_ok]
+          ConstDeclOptions_single(
+            ConstSingle_ok(
+              ConstantDecl(
+               jedan
+                Konstanta_broj(
+                 1
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstSingle_ok]
+          ) [ConstDeclOptions_single]
+        ) [ConstDeclOptions_multiple]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           m
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             r
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     MAIn
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             lazar
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               proba
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  00:31:06,091 - =====================================================================
+INFO  00:31:06,094 - ---------------------------------------------------------------------
+INFO  00:31:06,094 - =====================================================================
+INFO  00:31:06,094 - Parsiranje uspesno zavrseno!

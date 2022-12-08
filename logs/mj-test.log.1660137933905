@@ -1,0 +1,187 @@
+INFO  15:25:20,842 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  15:25:20,856 - #2 program
+INFO  15:25:20,856 - #28 Lazar
+INFO  15:25:20,856 - #5 const
+INFO  15:25:20,857 - #28 int
+INFO  15:25:20,857 - #28 a
+INFO  15:25:20,857 - #7 =
+INFO  15:25:20,857 - #29 1
+INFO  15:25:20,857 - #6 ;
+INFO  15:25:20,858 - #28 int
+INFO  15:25:20,858 - #28 x
+INFO  15:25:20,858 - #8 ,
+INFO  15:25:20,859 - #28 niz
+INFO  15:25:20,859 - #9 [
+INFO  15:25:20,859 - #10 ]
+INFO  15:25:20,859 - #6 ;
+INFO  15:25:20,859 - #3 {
+INFO  15:25:20,860 - #16 void
+INFO  15:25:20,860 - #28 main
+INFO  15:25:20,860 - #14 (
+INFO  15:25:20,860 - #15 )
+INFO  15:25:20,860 - #28 int
+INFO  15:25:20,861 - #28 b
+INFO  15:25:20,900 - #8 ,
+INFO  15:25:20,900 - #28 c
+INFO  15:25:20,900 - #8 ,
+INFO  15:25:20,900 - #28 d
+INFO  15:25:20,900 - #6 ;
+INFO  15:25:20,900 - #28 char
+INFO  15:25:20,900 - #28 niz1
+INFO  15:25:20,900 - #9 [
+INFO  15:25:20,900 - #10 ]
+INFO  15:25:20,900 - #6 ;
+INFO  15:25:20,900 - #3 {
+INFO  15:25:20,900 - #20 print
+INFO  15:25:20,901 - #14 (
+INFO  15:25:20,901 - #29 2
+INFO  15:25:20,901 - #11 *
+INFO  15:25:20,902 - #29 4
+INFO  15:25:20,902 - #15 )
+INFO  15:25:20,902 - #6 ;
+INFO  15:25:20,902 - #4 }
+INFO  15:25:20,902 - #4 }
+INFO  15:25:20,904 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             a
+              Konstanta_broj(
+               1
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           x
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_notEmpty(
+        VarDeclVectorForMethod_empty(
+        ) [VarDeclVectorForMethod_empty]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+              VariableDecl(
+               b
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableComma_ok]
+            VariableDeclOptions_multiple(
+              VariableComma_ok(
+                VariableDecl(
+                 c
+                  VariableOpcioneZagrade_bezZagrada(
+                  ) [VariableOpcioneZagrade_bezZagrada]
+                ) [VariableDecl]
+              ) [VariableComma_ok]
+              VariableDeclOptions_single(
+                VariableSingle_ok(
+                  VariableDecl(
+                   d
+                    VariableOpcioneZagrade_bezZagrada(
+                    ) [VariableOpcioneZagrade_bezZagrada]
+                  ) [VariableDecl]
+                ) [VariableSingle_ok]
+              ) [VariableDeclOptions_single]
+            ) [VariableDeclOptions_multiple]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [VarDeclVectorForMethod_notEmpty]
+      VariableDeclList(
+        Type(
+         char
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             niz1
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          Expr_SingleTerm(
+            Term_ListOfFactors(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_const(
+                    FactorConst_broj(
+                     2
+                    ) [FactorConst_broj]
+                  ) [FactorZamena_const]
+                ) [Factor]
+              ) [Term_SingleFactor]
+              MulOperator_puta(
+              ) [MulOperator_puta]
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_const(
+                  FactorConst_broj(
+                   4
+                  ) [FactorConst_broj]
+                ) [FactorZamena_const]
+              ) [Factor]
+            ) [Term_ListOfFactors]
+          ) [Expr_SingleTerm]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:25:20,904 - =====================================================================
+INFO  15:25:20,907 - ---------------------------------------------------------------------
+INFO  15:25:20,908 - =====================================================================
+INFO  15:25:20,915 - Parsiranje i generisanje uspesno zavrseno!

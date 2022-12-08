@@ -1,0 +1,68 @@
+INFO  18:08:26,162 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  18:08:26,175 - #2 program
+INFO  18:08:26,175 - #28 test1
+INFO  18:08:26,175 - #5 const
+INFO  18:08:26,175 - #28 int
+INFO  18:08:26,176 - #28 nula
+INFO  18:08:26,176 - #7 =
+INFO  18:08:26,176 - #29 0
+INFO  18:08:26,176 - #8 ,
+INFO  18:08:26,176 - #28 jedan
+INFO  18:08:26,176 - #7 =
+INFO  18:08:26,176 - #29 1
+INFO  18:08:26,176 - #6 ;
+INFO  18:08:26,177 - #3 {
+INFO  18:08:26,177 - #16 void
+INFO  18:08:26,177 - #28 main
+INFO  18:08:26,177 - #14 (
+INFO  18:08:26,178 - #15 )
+INFO  18:08:26,178 - #3 {
+INFO  18:08:26,178 - #4 }
+INFO  18:08:26,178 - #4 }
+INFO  18:08:26,179 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           nula
+            FactorConst_broj(
+             0
+            ) [FactorConst_broj]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             jedan
+              FactorConst_broj(
+               1
+              ) [FactorConst_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:08:26,192 - =====================================================================
+INFO  18:08:26,196 - ---------------------------------------------------------------------

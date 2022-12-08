@@ -1,0 +1,145 @@
+INFO  13:02:43,872 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  13:02:43,889 - #2 program
+INFO  13:02:43,889 - #28 test1
+INFO  13:02:43,889 - #5 const
+INFO  13:02:43,889 - #28 int
+INFO  13:02:43,890 - #28 a
+INFO  13:02:43,890 - #7 =
+INFO  13:02:43,890 - #29 0
+INFO  13:02:43,890 - #8 ,
+INFO  13:02:43,890 - #28 b
+INFO  13:02:43,890 - #7 =
+INFO  13:02:43,890 - #29 1
+INFO  13:02:43,890 - #6 ;
+INFO  13:02:43,890 - #28 int
+INFO  13:02:43,891 - #28 c
+INFO  13:02:43,891 - #8 ,
+INFO  13:02:43,892 - #28 d
+INFO  13:02:43,892 - #6 ;
+INFO  13:02:43,892 - #28 int
+INFO  13:02:43,892 - #28 niz1
+INFO  13:02:43,892 - #9 [
+INFO  13:02:43,893 - #10 ]
+INFO  13:02:43,893 - #6 ;
+INFO  13:02:43,893 - #28 char
+INFO  13:02:43,893 - #28 niz2
+INFO  13:02:43,893 - #9 [
+INFO  13:02:43,893 - #10 ]
+INFO  13:02:43,893 - #6 ;
+INFO  13:02:43,893 - #3 {
+INFO  13:02:43,893 - #16 void
+INFO  13:02:43,893 - #28 main
+INFO  13:02:43,894 - #14 (
+INFO  13:02:43,894 - #15 )
+INFO  13:02:43,894 - #28 int
+INFO  13:02:43,894 - #28 bodovi
+INFO  13:02:43,894 - #6 ;
+INFO  13:02:43,894 - #3 {
+INFO  13:02:43,895 - #4 }
+INFO  13:02:43,895 - #4 }
+INFO  13:02:43,896 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_variable(
+      ProgDeclList_variable(
+        ProgDeclList_const(
+          ProgDeclList_empty(
+          ) [ProgDeclList_empty]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclOptions_multiple(
+              ConstComma_ok(
+                ConstantDecl_broj(
+                 a
+                 0
+                ) [ConstantDecl_broj]
+              ) [ConstComma_ok]
+              ConstDeclOptions_single(
+                ConstSingle_ok(
+                  ConstantDecl_broj(
+                   b
+                   1
+                  ) [ConstantDecl_broj]
+                ) [ConstSingle_ok]
+              ) [ConstDeclOptions_single]
+            ) [ConstDeclOptions_multiple]
+          ) [ConstDeclList]
+        ) [ProgDeclList_const]
+        VariableDeclList(
+          Type(
+           int
+          ) [Type]
+          VariableDeclOptions_multiple(
+            VariableComma_ok(
+             c
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableComma_ok]
+            VariableDeclOptions_single(
+              VariableSingle_ok(
+               d
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableSingle_ok]
+            ) [VariableDeclOptions_single]
+          ) [VariableDeclOptions_multiple]
+        ) [VariableDeclList]
+      ) [ProgDeclList_variable]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+           niz1
+            VariableOpcioneZagrade_uglasteZagrade(
+            ) [VariableOpcioneZagrade_uglasteZagrade]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         niz2
+          VariableOpcioneZagrade_uglasteZagrade(
+          ) [VariableOpcioneZagrade_uglasteZagrade]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+           bodovi
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  13:02:43,896 - =====================================================================
+INFO  13:02:43,896 - Parsiranje uspesno zavrseno!

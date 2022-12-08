@@ -1,0 +1,128 @@
+INFO  12:08:02,094 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  12:08:02,154 - #2 program
+INFO  12:08:02,154 - #28 proba1
+INFO  12:08:02,154 - #28 int
+INFO  12:08:02,155 - #28 vesna
+INFO  12:08:02,156 - #8 ,
+INFO  12:08:02,158 - #28 pedja
+INFO  12:08:02,158 - #6 ;
+INFO  12:08:02,158 - #5 const
+INFO  12:08:02,158 - #28 int
+INFO  12:08:02,158 - #28 x
+INFO  12:08:02,158 - #7 =
+INFO  12:08:02,158 - #29 3
+INFO  12:08:02,158 - #8 ,
+INFO  12:08:02,158 - #28 y
+INFO  12:08:02,158 - #7 =
+INFO  12:08:02,159 - #29 4
+INFO  12:08:02,159 - #8 ,
+INFO  12:08:02,159 - #28 z
+INFO  12:08:02,159 - #7 =
+INFO  12:08:02,159 - #29 5
+INFO  12:08:02,159 - #6 ;
+INFO  12:08:02,159 - #3 {
+INFO  12:08:02,160 - #16 void
+INFO  12:08:02,160 - #28 main
+INFO  12:08:02,161 - #14 (
+INFO  12:08:02,162 - #15 )
+INFO  12:08:02,162 - #3 {
+INFO  12:08:02,163 - #28 vesna
+INFO  12:08:02,163 - #7 =
+INFO  12:08:02,163 - #29 2
+INFO  12:08:02,166 - #6 ;
+INFO  12:08:02,167 - #4 }
+INFO  12:08:02,168 - #4 }
+INFO  12:08:02,170 - Program(
+ proba1
+  ProgDeclList_const(
+    ProgDeclList_variable(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      VariableDeclList_nijeGreska(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_nijeGreska(
+           vesna
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableComma_nijeGreska]
+          VariableDeclOptions_single(
+            VariableSingle_nijeGreska(
+             pedja
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableSingle_nijeGreska]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList_nijeGreska]
+    ) [ProgDeclList_variable]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_nijeGreska(
+          ConstantDecl_broj(
+           x
+           3
+          ) [ConstantDecl_broj]
+        ) [ConstComma_nijeGreska]
+        ConstDeclOptions_multiple(
+          ConstComma_nijeGreska(
+            ConstantDecl_broj(
+             y
+             4
+            ) [ConstantDecl_broj]
+          ) [ConstComma_nijeGreska]
+          ConstDeclOptions_single(
+            ConstSingle_nijeGreska(
+              ConstantDecl_broj(
+               z
+               5
+              ) [ConstantDecl_broj]
+            ) [ConstSingle_nijeGreska]
+          ) [ConstDeclOptions_single]
+        ) [ConstDeclOptions_multiple]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost_void(
+    ) [MethodPovratnaVrednost_void]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_onlyIdent(
+             vesna
+            ) [Designator_onlyIdent]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_SingleTerm(
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_broj(
+                   2
+                  ) [FactorZamena_broj]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_SingleTerm]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:08:02,171 - =====================================================================
+INFO  12:08:02,171 - Parsiranje uspesno zavrseno!

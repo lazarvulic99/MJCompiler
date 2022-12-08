@@ -1,0 +1,103 @@
+INFO  23:36:31,086 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  23:36:31,101 - #2 program
+INFO  23:36:31,101 - #28 test1
+INFO  23:36:31,101 - #5 const
+INFO  23:36:31,102 - #28 int
+INFO  23:36:31,102 - #28 nula
+INFO  23:36:31,102 - #7 =
+INFO  23:36:31,102 - #29 0
+INFO  23:36:31,102 - #8 ,
+INFO  23:36:31,103 - #28 jedan
+INFO  23:36:31,103 - #7 =
+INFO  23:36:31,103 - #29 1
+INFO  23:36:31,103 - #6 ;
+INFO  23:36:31,103 - #28 char
+INFO  23:36:31,103 - #28 m
+INFO  23:36:31,103 - #8 ,
+INFO  23:36:31,104 - #28 m
+INFO  23:36:31,104 - #9 [
+INFO  23:36:31,104 - #10 ]
+INFO  23:36:31,104 - #6 ;
+INFO  23:36:31,105 - #3 {
+INFO  23:36:31,105 - #16 void
+INFO  23:36:31,105 - #28 main
+INFO  23:36:31,106 - #14 (
+INFO  23:36:31,106 - #15 )
+INFO  23:36:31,106 - #3 {
+INFO  23:36:31,106 - #4 }
+INFO  23:36:31,106 - #4 }
+INFO  23:36:31,107 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_multiple(
+          ConstComma_ok(
+            ConstantDecl(
+             nula
+              Konstanta_broj(
+               0
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstComma_ok]
+          ConstDeclOptions_single(
+            ConstSingle_ok(
+              ConstantDecl(
+               jedan
+                Konstanta_broj(
+                 1
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstSingle_ok]
+          ) [ConstDeclOptions_single]
+        ) [ConstDeclOptions_multiple]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_ok(
+          VariableDecl(
+           m
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableComma_ok]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             m
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  23:36:31,108 - =====================================================================
+ERROR 23:36:31,110 - Greska! Dupla definicija simbola za promenljivu: m ! na liniji 5
+INFO  23:36:31,110 - ---------------------------------------------------------------------
+INFO  23:36:31,111 - =====================================================================
+ERROR 23:36:31,111 - Parsiranje NIJE uspesno zavrseno!

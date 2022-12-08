@@ -1,0 +1,80 @@
+INFO  12:47:47,366 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  12:47:47,380 - #2 program
+INFO  12:47:47,380 - #28 Lazar
+INFO  12:47:47,381 - #5 const
+INFO  12:47:47,381 - #28 int
+INFO  12:47:47,381 - #28 a
+INFO  12:47:47,381 - #7 =
+INFO  12:47:47,381 - #29 1
+INFO  12:47:47,382 - #6 ;
+INFO  12:47:47,382 - #3 {
+INFO  12:47:47,382 - #16 void
+INFO  12:47:47,382 - #28 main
+INFO  12:47:47,383 - #14 (
+INFO  12:47:47,383 - #15 )
+INFO  12:47:47,383 - #3 {
+INFO  12:47:47,383 - #20 print
+INFO  12:47:47,384 - #14 (
+INFO  12:47:47,384 - #29 1
+INFO  12:47:47,384 - #15 )
+INFO  12:47:47,384 - #6 ;
+INFO  12:47:47,385 - #4 }
+INFO  12:47:47,385 - #4 }
+INFO  12:47:47,386 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_single(
+        ConstSingle_ok(
+          ConstantDecl(
+           a
+            Konstanta_broj(
+             1
+            ) [Konstanta_broj]
+          ) [ConstantDecl]
+        ) [ConstSingle_ok]
+      ) [ConstDeclOptions_single]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_printStatementWithoutZarez(
+          Expr_SingleTerm(
+            Term_SingleFactor(
+              Factor(
+                FactorMoguciMinus_nijeMinus(
+                ) [FactorMoguciMinus_nijeMinus]
+                FactorZamena_const(
+                  FactorConst_broj(
+                   1
+                  ) [FactorConst_broj]
+                ) [FactorZamena_const]
+              ) [Factor]
+            ) [Term_SingleFactor]
+          ) [Expr_SingleTerm]
+        ) [SingleStatement_printStatementWithoutZarez]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:47:47,386 - =====================================================================
+INFO  12:47:47,389 - ---------------------------------------------------------------------
+INFO  12:47:47,390 - =====================================================================
+INFO  12:47:47,396 - Parsiranje i generisanje uspesno zavrseno!

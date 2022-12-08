@@ -1,0 +1,83 @@
+INFO  21:55:34,847 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  21:55:34,862 - #2 program
+INFO  21:55:34,862 - #28 Vulic
+INFO  21:55:34,862 - #5 const
+INFO  21:55:34,863 - #28 int
+INFO  21:55:34,863 - #28 a
+INFO  21:55:34,863 - #7 =
+INFO  21:55:34,863 - #29 1
+INFO  21:55:34,863 - #8 ,
+INFO  21:55:34,863 - #28 b
+INFO  21:55:34,864 - #7 =
+INFO  21:55:34,864 - #29 2
+INFO  21:55:34,864 - #6 ;
+INFO  21:55:34,864 - #28 char
+INFO  21:55:34,864 - #28 niz1
+INFO  21:55:34,864 - #9 [
+INFO  21:55:34,864 - #10 ]
+INFO  21:55:34,864 - #6 ;
+INFO  21:55:34,865 - #3 {
+INFO  21:55:34,865 - #16 void
+INFO  21:55:34,865 - #28 main
+INFO  21:55:34,866 - #14 (
+INFO  21:55:34,866 - #15 )
+INFO  21:55:34,866 - #3 {
+INFO  21:55:34,867 - #4 }
+INFO  21:55:34,867 - #4 }
+INFO  21:55:34,868 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_const(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclOptions_multiple(
+          ConstComma_ok(
+            ConstantDecl_broj(
+             a
+             1
+            ) [ConstantDecl_broj]
+          ) [ConstComma_ok]
+          ConstDeclOptions_single(
+            ConstSingle_ok(
+              ConstantDecl_broj(
+               b
+               2
+              ) [ConstantDecl_broj]
+            ) [ConstSingle_ok]
+          ) [ConstDeclOptions_single]
+        ) [ConstDeclOptions_multiple]
+      ) [ConstDeclList]
+    ) [ProgDeclList_const]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         niz1
+          VariableOpcioneZagrade_uglasteZagrade(
+          ) [VariableOpcioneZagrade_uglasteZagrade]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  21:55:34,868 - =====================================================================
+INFO  21:55:34,868 - Parsiranje uspesno zavrseno!

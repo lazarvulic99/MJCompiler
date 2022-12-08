@@ -1,0 +1,64 @@
+INFO  17:36:55,857 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  17:36:55,872 - #2 program
+INFO  17:36:55,872 - #28 Vulic
+INFO  17:36:55,872 - #28 int
+INFO  17:36:55,873 - #28 prom1
+INFO  17:36:55,873 - #6 ;
+INFO  17:36:55,873 - #3 {
+INFO  17:36:55,874 - #16 void
+INFO  17:36:55,874 - #28 main
+INFO  17:36:55,874 - #14 (
+INFO  17:36:55,874 - #15 )
+INFO  17:36:55,874 - #3 {
+INFO  17:36:55,875 - #28 b
+INFO  17:36:55,875 - #23 ++
+INFO  17:36:55,875 - #6 ;
+INFO  17:36:55,875 - #4 }
+INFO  17:36:55,875 - #4 }
+INFO  17:36:55,876 - Program(
+  ProgramIdent(
+   Vulic
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+         prom1
+          VariableOpcioneZagrade_bezZagrada(
+          ) [VariableOpcioneZagrade_bezZagrada]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_plusPlus(
+            Designator_onlyIdent(
+             b
+            ) [Designator_onlyIdent]
+          ) [DesignatorStatement_plusPlus]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:36:55,877 - =====================================================================
+INFO  17:36:55,880 - ---------------------------------------------------------------------
+INFO  17:36:55,880 - =====================================================================
+INFO  17:36:55,880 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,154 @@
+INFO  00:22:42,627 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  00:22:42,641 - #2 program
+INFO  00:22:42,641 - #28 test1
+INFO  00:22:42,641 - #5 const
+INFO  00:22:42,641 - #28 int
+INFO  00:22:42,641 - #28 nula
+INFO  00:22:42,642 - #7 =
+INFO  00:22:42,642 - #29 0
+INFO  00:22:42,642 - #8 ,
+INFO  00:22:42,642 - #28 jedan
+INFO  00:22:42,642 - #7 =
+INFO  00:22:42,642 - #29 1
+INFO  00:22:42,642 - #6 ;
+INFO  00:22:42,642 - #28 char
+INFO  00:22:42,643 - #28 m
+INFO  00:22:42,643 - #8 ,
+INFO  00:22:42,644 - #28 r
+INFO  00:22:42,644 - #9 [
+INFO  00:22:42,644 - #10 ]
+INFO  00:22:42,644 - #6 ;
+INFO  00:22:42,644 - #28 char
+INFO  00:22:42,644 - #28 eol
+INFO  00:22:42,645 - #6 ;
+INFO  00:22:42,645 - #3 {
+INFO  00:22:42,645 - #16 void
+INFO  00:22:42,645 - #28 main
+INFO  00:22:42,645 - #14 (
+INFO  00:22:42,645 - #15 )
+INFO  00:22:42,645 - #28 int
+INFO  00:22:42,646 - #28 lazar
+INFO  00:22:42,646 - #8 ,
+INFO  00:22:42,646 - #28 proba
+INFO  00:22:42,646 - #9 [
+INFO  00:22:42,646 - #10 ]
+INFO  00:22:42,646 - #6 ;
+INFO  00:22:42,646 - #3 {
+INFO  00:22:42,646 - #4 }
+INFO  00:22:42,646 - #4 }
+INFO  00:22:42,647 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_variable(
+      ProgDeclList_const(
+        ProgDeclList_empty(
+        ) [ProgDeclList_empty]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclOptions_multiple(
+            ConstComma_ok(
+              ConstantDecl(
+               nula
+                Konstanta_broj(
+                 0
+                ) [Konstanta_broj]
+              ) [ConstantDecl]
+            ) [ConstComma_ok]
+            ConstDeclOptions_single(
+              ConstSingle_ok(
+                ConstantDecl(
+                 jedan
+                  Konstanta_broj(
+                   1
+                  ) [Konstanta_broj]
+                ) [ConstantDecl]
+              ) [ConstSingle_ok]
+            ) [ConstDeclOptions_single]
+          ) [ConstDeclOptions_multiple]
+        ) [ConstDeclList]
+      ) [ProgDeclList_const]
+      VariableDeclList(
+        Type(
+         char
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             m
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               r
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    VariableDeclList(
+      Type(
+       char
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           eol
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             lazar
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               proba
+                VariableOpcioneZagrade_uglasteZagrade(
+                ) [VariableOpcioneZagrade_uglasteZagrade]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  00:22:42,647 - =====================================================================
+ERROR 00:22:42,650 - Greska! Dupla definicija simbola za promenljivu: eol ! na liniji 6
+INFO  00:22:42,650 - ---------------------------------------------------------------------
+INFO  00:22:42,651 - =====================================================================
+ERROR 00:22:42,651 - Parsiranje NIJE uspesno zavrseno!

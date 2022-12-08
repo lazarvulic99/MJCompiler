@@ -1,0 +1,86 @@
+INFO  18:38:59,053 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  18:38:59,067 - #2 program
+INFO  18:38:59,067 - #28 test1
+INFO  18:38:59,067 - #5 const
+INFO  18:38:59,068 - #28 int
+INFO  18:38:59,068 - #28 nula
+INFO  18:38:59,068 - #7 =
+INFO  18:38:59,068 - #29 0
+INFO  18:38:59,068 - #8 ,
+INFO  18:38:59,068 - #28 jedan
+INFO  18:38:59,068 - #7 =
+INFO  18:38:59,069 - #29 1
+INFO  18:38:59,069 - #6 ;
+INFO  18:38:59,069 - #3 {
+INFO  18:38:59,069 - #16 void
+INFO  18:38:59,069 - #28 main
+INFO  18:38:59,069 - #14 (
+INFO  18:38:59,070 - #15 )
+INFO  18:38:59,070 - #3 {
+INFO  18:38:59,070 - #28 a
+INFO  18:38:59,070 - #7 =
+INFO  18:38:59,070 - #29 5
+INFO  18:38:59,071 - #24 -
+INFO  18:38:59,072 - #6 ;
+ERROR 18:38:59,072 - 
+Sintaksna greska na liniji 7
+INFO  18:38:59,072 - #4 }
+INFO  18:38:59,072 - #4 }
+ERROR 18:38:59,072 - Oporavak izvrsen do ; u liniji 7
+INFO  18:38:59,074 - Program(
+  ProgramIdent(
+   test1
+  ) [ProgramIdent]
+  ProgDeclList_const(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclOptions_multiple(
+        ConstComma_ok(
+          ConstantDecl(
+           nula
+            Konstanta_broj(
+             0
+            ) [Konstanta_broj]
+          ) [ConstantDecl]
+        ) [ConstComma_ok]
+        ConstDeclOptions_single(
+          ConstSingle_ok(
+            ConstantDecl(
+             jedan
+              Konstanta_broj(
+               1
+              ) [Konstanta_broj]
+            ) [ConstantDecl]
+          ) [ConstSingle_ok]
+        ) [ConstDeclOptions_single]
+      ) [ConstDeclOptions_multiple]
+    ) [ConstDeclList]
+  ) [ProgDeclList_const]
+  MethodDeclList(
+    MethodPovratnaVrednost(
+    ) [MethodPovratnaVrednost]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_greska(
+          ) [DesignatorStatement_greska]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:38:59,074 - =====================================================================
+INFO  18:38:59,077 - ---------------------------------------------------------------------
+INFO  18:38:59,077 - =====================================================================
+ERROR 18:38:59,077 - Parsiranje NIJE uspesno zavrseno!

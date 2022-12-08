@@ -1,0 +1,118 @@
+INFO  12:20:34,059 - Compiling source file: D:\EclipseDesktop\workspace\MJCompiler\test\program.mj
+INFO  12:20:34,072 - #2 program
+INFO  12:20:34,072 - #28 proba1
+INFO  12:20:34,072 - #28 int
+INFO  12:20:34,073 - #28 x
+INFO  12:20:34,073 - #9 [
+INFO  12:20:34,073 - #10 ]
+INFO  12:20:34,073 - #8 ,
+INFO  12:20:34,073 - #28 y
+INFO  12:20:34,073 - #6 ;
+INFO  12:20:34,074 - #3 {
+INFO  12:20:34,074 - #16 void
+INFO  12:20:34,074 - #28 main
+INFO  12:20:34,074 - #14 (
+INFO  12:20:34,075 - #15 )
+INFO  12:20:34,075 - #3 {
+INFO  12:20:34,075 - #28 x
+INFO  12:20:34,075 - #9 [
+INFO  12:20:34,076 - #29 2
+INFO  12:20:34,076 - #10 ]
+INFO  12:20:34,077 - #7 =
+INFO  12:20:34,077 - #28 y
+INFO  12:20:34,077 - #25 +
+INFO  12:20:34,077 - #29 1
+INFO  12:20:34,089 - #6 ;
+INFO  12:20:34,089 - #4 }
+INFO  12:20:34,090 - #4 }
+INFO  12:20:34,091 - Program(
+ proba1
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList_nijeGreska(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_multiple(
+        VariableComma_nijeGreska(
+         x
+          VariableOpcioneZagrade_uglasteZagrade(
+          ) [VariableOpcioneZagrade_uglasteZagrade]
+        ) [VariableComma_nijeGreska]
+        VariableDeclOptions_single(
+          VariableSingle_nijeGreska(
+           y
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableSingle_nijeGreska]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclOptions_multiple]
+    ) [VariableDeclList_nijeGreska]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodPovratnaVrednost_void(
+    ) [MethodPovratnaVrednost_void]
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_empty(
+    ) [VarDeclVectorForMethod_empty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_dodela(
+            Designator_element(
+              VariableName(
+               x
+              ) [VariableName]
+              Expr_SingleTerm(
+                Term_SingleFactor(
+                  Factor(
+                    FactorMoguciMinus_nijeMinus(
+                    ) [FactorMoguciMinus_nijeMinus]
+                    FactorZamena_broj(
+                     2
+                    ) [FactorZamena_broj]
+                  ) [Factor]
+                ) [Term_SingleFactor]
+              ) [Expr_SingleTerm]
+            ) [Designator_element]
+            AssignOperator(
+            ) [AssignOperator]
+            Expr_ListOfTerms(
+              Expr_SingleTerm(
+                Term_SingleFactor(
+                  Factor(
+                    FactorMoguciMinus_nijeMinus(
+                    ) [FactorMoguciMinus_nijeMinus]
+                    FactorZamena_designator(
+                      Designator_onlyIdent(
+                       y
+                      ) [Designator_onlyIdent]
+                    ) [FactorZamena_designator]
+                  ) [Factor]
+                ) [Term_SingleFactor]
+              ) [Expr_SingleTerm]
+              AddOperator_plus(
+              ) [AddOperator_plus]
+              Term_SingleFactor(
+                Factor(
+                  FactorMoguciMinus_nijeMinus(
+                  ) [FactorMoguciMinus_nijeMinus]
+                  FactorZamena_broj(
+                   1
+                  ) [FactorZamena_broj]
+                ) [Factor]
+              ) [Term_SingleFactor]
+            ) [Expr_ListOfTerms]
+          ) [DesignatorStatement_dodela]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:20:34,091 - =====================================================================
+INFO  12:20:34,091 - Parsiranje uspesno zavrseno!
